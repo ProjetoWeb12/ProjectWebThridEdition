@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	text-decoration-line: none;
+	list-style: none;
+}
+
+.header{
+	width: 80%;
+	height: 10%;
+	margin: 1% 0 1% 0;
+	background-image: url("../img/capa_beatles.jpg");	
+	background-size: 100% 30%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	border: solid 1px #000;
+	padding-bottom: 5%;
+}
+.principal-title{
+	font-size: 200%;
+	font-family: Bootle;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+.logo img{
+	width: 90px;
+	height: auto;
+}
+.home i{
+	font-size: 45px;
+}
+.home a{
+	color: #000;
+}
+
+.albuns-link{
+	width: 80%;
+}
+.albuns-link a{
+	color: #000;
+}
+.albuns-link table{
+	width: 100%;
+}
+.albuns-link tr{
+	text-align: center;
+}
+.albuns-link td{
+	display: inline;
+	font-family: Bootle;
+	font-size: 1.5vw;
+	padding: 2px 5px 2px 5px;
+	border-left: solid 2px #000;
+	text-decoration-line: underline;
+
+}
+.title-bio{
+	margin-top: 5%;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.album-title{
+	margin-top: 10%;
+	margin-bottom: 30px;
+	font-size: 60px;
+	font-family: Bootle;
+}
+
+.parallax{
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 400px;
+	width: 90%;
+	background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+
+article a{
+	font-size: 40px;
+	margin-right: 5%;
+	color: #000;
+}
+article p{
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+article h1{
+	margin-left: 5%;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+
+
+.align{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.justify{
+	text-align: justify;
+}
+.center{
+	text-align: center;
+}
+
+
+
+
+@font-face{
+	font-family: 'Bootle';
+	src: url('../BOOTLE__.ttf');
+}

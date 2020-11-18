@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:1000px;
+    margin: auto; 
+    background-image: url("../img/TelaPrincipal-projota.png");  
+    background-repeat: no-repeat;
+    background-image: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+a.voltando{
+    font-style: italic;
+    background-color: gray;
+    font-size: 1.5em;
+}
+h1{
+    font-family:'Georg Duffiner';
+    font-style: italic;
+    color:white;
+    font-size: 4em;
+    text-align: center; 
+    width: 100%;
+    background-color:black;
+    height: 80px;  
+}
+div.tela{
+    font-family:'Steve Mattesson', 'sans-serif'; 
+    width: 315px;
+    display: inline-block;
+    font-size: 2.5em;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius:0px 20px ;
+}
+h2{
+    font-family: 'Bree Serif';
+    color: black;
+    font-size: 2em ;
+    background-color:#bfbfbf;
+    border-radius: 0px 10px;
+    text-shadow: 2px 2px 0px white;
+    box-shadow: 2px 2px 1px black;
+}
+.Biografia{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #262626;
+    background-color: #8c8c8c;
+    border-radius: 0px 20px;
+    padding: 10px 20px;
+    margin: auto;
+    line-height: 1.2em;
+    box-shadow: 3px 3px 2px white;
+}
+h3{
+    font-family: 'Bree Serif';
+    border-radius:0px 10px;
+    background-color: #bfbfbf;
+    font-size: 1.7em;
+    text-shadow: 2px 2px 0px white;
+    box-shadow: 2px 2px 1px black;
+}
+a{
+    text-decoration: none;
+    color: #262626;
+    border-radius: 10px 0px;
+    background-color:#8c8c8c;
+    font-size: 1.1em;
+}
+a:hover{
+    text-decoration: underline;
+}
+h4{
+   font-family: 'Bree Serif';
+    font-size: 2em ; 
+    text-align: justify; 
+    background-color: #bfbfbf; 
+    border-radius: 0px 10px;
+    text-shadow: 2px 2px 0px white;
+    box-shadow: 2px 2px 1px black;
+}
+.album1{
+    text-align: left;
+}
+div.album{
+    width: 325px;
+    display: inline-block;
+    text-align: center;
+}
+
+.album p{
+    background-color: #595959;
+    margin-bottom: 40px;
+}
+.album1{
+    background-color: bisque;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+.album2{
+    background-color: bisque;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+.album3{
+    background-color: bisque;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+footer{
+    text-align: center;
+     font-size: 1em;
+    color: white;
+    clear: both;
+    border-top: 1px solid gray;   
+}

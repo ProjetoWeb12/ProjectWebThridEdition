@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none; 
+}
+
+body{
+	background-image: linear-gradient(to top, #000080, #1a1a1a);
+	background-repeat: no-repeat;
+}
+
+header{
+	display: block;
+	background-image: linear-gradient(to top, #1a1a1a, #000080);
+	height: 100px;
+	margin-bottom: 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+	header img{
+		margin: 10px 10px 0px 10px;
+		float: left;
+	}
+header img{
+	height: 80px;
+	transition: all 2s ease;
+}
+header img:hover{
+	height: 100px;
+	width: auto;
+	border-radius: 40px;
+	box-shadow: 2px 2px 20px #00ace6;
+}
+header li{
+	float: right;
+	margin-left: 15px;
+	margin-top: 25px;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #000;
+	transition: all 1s ease;
+}
+header li:hover{
+	box-shadow: 2px 2px 20px #00ace6;
+}
+
+header a{
+	color: #fff;
+	transition: all 2s ease;
+}
+header a:hover{
+	color: #0099cc;
+
+}
+
+#title1{
+	font-family: 'Goldman', cursive;
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	border-radius: 15px;
+	background-image: radial-gradient(#000, #333);
+	box-shadow: 2px 2px 20px #00ace6;
+	
+}
+
+section{
+	margin: auto;
+	width: 60%;
+}
+section img{
+	height: auto;
+	width: 100%;
+}
+
+aside{
+	display: inline;
+}
+aside button{
+	width: 30%;
+	height: 35px;
+	padding: 4px;
+	margin: 2% 1% 2% 1%;
+	border-radius: 15px 5px;
+	font-size: 15px;
+	border: none; 
+	background-color: #000;
+	transition: all 0.5s ease;
+	color: #fff;
+	letter-spacing: 5px;
+}
+aside button:hover{
+	box-shadow: 2px 2px 20px #00ace6;
+}
+
+article{
+	width: 100%;
+	text-align: center;
+	background-color: #00001a;
+}
+article p{
+	text-align: justify;
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #00ace6;
+	text-shadow: 8px 8px 2px #000;
+}
+
+audio .music{
+	margin-left: 15px;
+}
+
+
+
+

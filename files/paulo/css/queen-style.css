@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section, article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p{
+text-align: justify;
+}
+
+.foto-formatacao {
+    float:none; display:block; margin-left:auto; margin-right:auto;
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px #ccc;
+}
+
+#centralizado{
+    text-align: center;
+}

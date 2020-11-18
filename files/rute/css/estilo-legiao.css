@@ -1,0 +1,102 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-image: url('../img/Tela-legiao.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a.voltando{
+   background-color: black;
+   font-size: 1.5em;
+}
+h1{
+    font-family: 'Georg Duffiner';
+    font-style: italic;
+    text-align: justify;
+    font-size: 4em;
+    height: 80px;
+    color: white;
+    display: block;
+}
+div.tela{
+    font-family: 'Steve Mattesson', 'sans-serif';
+    color: black;
+    width: 315px;
+    display: inline-block;
+    font-size: 2.5em;
+    margin-left: 15px;
+    border-radius: 20px 0px;
+}
+a{
+    text-decoration: none;
+    color: #D3D3D3;
+    border-radius: 10px 0px;
+    background-color:#262626;
+    font-size: 1.1em;
+}
+a:hover{
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Bree Serif';
+    color: black;
+    font-size: 2em; 
+    border-radius: 0px 10px;
+    box-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 0px whitesmoke;
+    background-color: #bfbfbf;
+}
+.Biografia{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#262626 ;
+    background-color: #8c8c8c;  border-radius: 0px 20px;
+    padding: 10px 20px;
+    margin: auto;
+    line-height: 1.2em;
+    box-shadow: 3px 3px 2px white;
+}
+h3{
+    font-family: 'Bree Serif';
+    border-radius: 0px 10px;
+    background-color: #bfbfbf;
+    font-size:1.7em;
+    text-shadow: 2px 2px 0px white;
+    box-shadow: 2px 2px 1px black;
+}
+.musicas{
+    text-align: left;
+    background-color: #8c8c8c;
+    border-radius: 0px 20px;
+    display: inline-block;
+    margin-left: 15px;
+    width: 315px;
+}
+h4{
+    font-family: 'Bree Serif';
+    border-radius: 0px 10px;
+    background-color: #bfbfbf;
+    font-size:1.7em;
+    text-shadow: 2px 2px 0px white;
+    box-shadow: 2px 2px 1px black;
+}
+.img{
+    margin-top: auto ;
+}
+.album{
+    display: inline-block;
+    margin-left:15px;
+    width: 330px;
+    margin: auto;
+}
+.album p{
+    margin: auto;
+   margin-bottom: 10px;
+    text-align: left;
+}
+footer{
+    text-align: center;
+     font-size: 1em;
+    color: black;
+    clear: both;
+    border-top: 1px solid black;
+}

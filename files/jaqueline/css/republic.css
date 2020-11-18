@@ -1,0 +1,158 @@
+body,
+html{
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+}
+body{
+	background-color: lightslategray
+}
+
+
+a, a img{
+	text-decoration: none;
+    border: none
+}
+img{
+	height: auto;
+    max-width: 100%;
+	border: 3px solid white;
+	border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+.principal{
+	max-width: 980px;
+	min-width: 400px;
+	color: #444;
+	margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+  
+}
+.cabecalho,
+.logo,
+.rodape,
+.Menu{
+	width: 100%;
+	display: block;
+    clear: both;
+}
+.cabecalho{
+	height: 100px;
+}
+.logo-cabecalho{
+	float: left;
+}
+.logo-cabecalho a{
+	font-size: 50px;
+	font-style: italic;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 20px 0 0 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	
+}
+.Menu{
+	background-color: black;
+	border-radius: 20px 20px;
+}
+.Menu ul li,
+.Menu ul{
+	margin: 0px;
+	padding: 0px;
+    list-style: none;
+    
+}
+.Menu ul li {
+	display: inline-block;
+}
+.Menu ul li a {
+	display: block;
+	color:  lightslategray;
+	padding: 13px 20px;
+}
+.corpo{
+	position: relative;
+	overflow: hidden;
+}
+.Fotos{
+	float: left;
+}
+.Fotos, .Fotos:before{
+	width: 65%;
+	   
+}
+.Fotos:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	z-index: -1;
+    content:'';
+}
+.barra-lateral{
+	float: right;
+}
+.barra-lateral, .barra-lateral:before{
+	width: 30%;
+
+}
+.barra-lateral:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 20px;
+	
+}
+
+.escapamento{
+	padding: 25px;
+	text-align:left;
+}
+
+.Menu ul li a:hover{
+	text-decoration: underline;
+	color:  lightslategray;
+	transition-property: border-color;
+	transition: 1s;
+	background-color: lightcyan;
+	
+}
+.escapamento p{
+    text-align: justify;
+	line-height: 30px;
+	
+
+}
+.escapamento h1, .escapamento h2{
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+
+}
+.barra-lateral{
+	border: 2px solid #c3c3c3 ;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	
+}
+h3{
+	text-align: center;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding-top: 3px;
+	color: lightslategray;	
+}
+.inframe-borda{
+	border: 2px solid grey;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	margin: 3px;
+	padding: 5px;	
+}

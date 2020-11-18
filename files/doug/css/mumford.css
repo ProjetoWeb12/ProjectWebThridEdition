@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body{
+	background-image: url("../img/mumford.jpg");
+	background-color: #765728;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+header{
+	margin: 10px 10px 50px 10px;
+	border-radius: 20px;
+	background-color: #cda368;
+	box-shadow: 10px 10px #a77c39;
+	height: 30px;
+}
+header h2{
+	margin: 20px 0 0 20px;
+}
+
+.card {
+	margin: 20px 50px 20px 50px;
+	padding: 20px;
+	border-radius: 0px 0px 40px 40px;
+	background-color: #5f4621;
+	opacity: 80%;
+	color: #fff;
+	font-size: 16px;
+}
+.card li{
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+div .card p{
+	text-align: justify;
+	margin: 20px 20px;
+}
+
