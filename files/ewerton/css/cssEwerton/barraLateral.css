@@ -1,0 +1,199 @@
+
+/*
+.AncoraAlbunsLista{
+    background-color: rgba(141, 141, 141, 0.438);
+    padding: 4px;
+    border-top: 1px solid black;
+    color: black;
+    list-style: decimal;
+    list-style-position:inside;
+    font-size: 16px;
+    
+
+}
+
+*/
+.fixadoTopo{
+    
+   /*====menu da pagina albuns=====*/
+    position: fixed;
+   
+    
+
+}
+.fixadobarraLateral{
+    position: fixed;
+    top: 60px; 
+    left: 850px;
+  
+  
+}
+.infBanda{
+    background: rgba(148, 148, 148, 0.322);
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Syne Mono';
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 4px;
+    border-top: 1px solid rgba(0, 0, 0, 0.486);
+
+}
+a:link, a:visited{
+
+    text-decoration: none;
+    
+   
+}
+.ancora{
+
+    font-family: 'Syne Mono', monospace;
+    background-color: rgba(235, 235, 245, 0.438);
+    font-weight: bolder;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(7, 7, 7);
+    transition: color 1s;
+    
+
+}
+
+.ancora:hover,.ancora:focus{
+    
+    color: white;
+    background: rgb(227, 227, 243);
+    
+    
+}
+/*barra de menu*/
+.menu{
+    
+    display: inline-block;
+    margin-bottom   : 10px;
+    margin-top: 0px;
+   
+    /*position: relative;top: -6px ;left: 80px;*/       
+    
+}
+ul li{
+    position: relative;
+    
+}
+li ul{
+    position: absolute;
+    display: none;
+    top: 22px;
+    
+}
+li:hover ul{
+    display: block;
+
+}
+/*==========*/
+.menuFixado{
+    
+    position: fixed;
+    top: 20px;
+    left: 670px;
+    z-index:2;
+    
+   /*Classe ligada ao menu da pagina principal*/
+}
+
+
+.barraLateral{
+   
+    width: 350px;
+    height: auto;
+    background: rgb(227, 227, 243);
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+    float: right;
+    margin-top: 50px;
+
+}
+.meunAlbuns{
+    width: 220px;
+    height: auto;
+    background: rgb(175, 175, 175);
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+    padding: 6px;
+    border-bottom: 2px solid black;
+    
+
+}
+.AncoraAlbuns{
+    color: black;
+    font-family: 'Syne Mono';
+    background-color: rgba(235, 235, 245, 0.438);
+    padding: 2px;
+    transition: all 1s ease;
+
+}
+.AncoraAlbuns:hover{
+    background-color: rgba(134, 134, 134, 0.438);
+    border-top: 1px solid black;
+}
+ul li {
+
+    display: inline-block;
+
+}
+
+ol li {
+ display: inline-block;
+}
+.MusicaTitulo{
+    font-size: 25px;
+    font-family: 'Syne Mono';
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-top: 1px solid black;
+
+}
+.Musica{
+    color: black;
+    letter-spacing: 4px;    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-top:1px solid rgb(104, 104, 104);
+    font-family: 'Syne Mono', monospace;
+    top :8px ;
+    left: 1px;
+    
+}
+.Musica:hover{
+
+    -webkit-filter: brightness(100%);
+    filter: brightness(150%);
+
+}
+ol li{
+    font-size: 15px;
+    font-family: 'Syne Mono', monospace;
+    background-color: rgba(189, 189, 228, 0.116);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    
+    /*list-style: decimal;
+    list-style-position: inside;*/      
+}
+ol{
+    padding-inline-start: 5px;
+
+}
+audio{
+    max-width: 100%;
+    min-width: 100px;
+    color: aqua;
+    height: 30px; 
+
+    
+}
+aside audio{
+margin-left: 20px;
+}
