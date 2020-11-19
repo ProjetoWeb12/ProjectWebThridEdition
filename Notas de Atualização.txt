@@ -45,3 +45,9 @@ Ewerton -> 2.2 No arquivo StyleEwerton.css esta tudo separado com comentarios
 
 
 João Paulo -> Tags semânticas atualizadas, organização do conteúdo, box shadow e estilização das bordas.
+
+Quarta entrega:
+	Ewerton : 
+	Atualização no header e footer; 
+	background-image no body 
+	
