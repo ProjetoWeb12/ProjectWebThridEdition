@@ -1,0 +1,19 @@
+footer{
+	padding-top: 10px;
+	height: 70px;
+	width: 100%;
+	background-color: #00001a;
+	color: white;
+    text-align: center;
+    clear: both;
+    margin-top: 30px;
+    display: block;
+}
+.volta{
+    font-size: 40px;
+    position:relative;top: 10px;left: 300px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(240, 240, 240);
+    height: 40px;
+
+}

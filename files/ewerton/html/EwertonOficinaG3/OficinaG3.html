@@ -6,10 +6,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/EwertonIMG/OficinaG3.jpg" type="image/x-icon">
+    <!--Links dos arquivos .css-->
     <link rel="stylesheet" href="../../css/cssEwerton/TemaEscuro.css">
     <link rel="stylesheet" href="../../css/cssEwerton/StyleEwerton.css" >
     <link rel="stylesheet" href="../../css//cssEwerton/reset.css">
-    <link rel="icon" href="../../img/EwertonIMG/OficinaG3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/cssEwerton/barraLateral.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/secao.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/rodape.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/header.css">
+   
     
     
     <title>OficinaG3</title>
@@ -17,29 +23,33 @@
   
 
 </head>
-    
-<body>
   
+<body>
     <input type="checkbox" name=""  id="dark">
+    
   <div class="box">   
   
-        <h1 class="tituloTopo"> <hr><img class="imgTopo" src="../../img/EwertonIMG/OficinaG3.jpg" alt=""> OficinaG3</h1>
       
-        <label class="textDark" for="dark">Tema Dark</label>
-
-    <div class="invelope">    
-     
-            <header id="Topo">
+       <header id="Topo"> 
+           
+                 <h1 class="tituloTopo"><img class="imgTopo" src="../../img/EwertonIMG/OficinaG3.jpg" alt=""> OficinaG3</h1>
                 <nav>
                         <ul class="menuFixado">
                             <li class="menu"><a class="ancora" href="OficinaG3.html">Historia</a></li>
                             <li class="menu"><a class="ancora" href="AlbunsEwe.html">Albuns</a></li>
                             <li class="menu"><a class="ancora" href="../../index.html">Volta</a></li>
+                            <li><label class="textDark" for="dark">Tema Dark</label></li>
                         </ul>
                     </nav>
                 
 
             </header>
+        
+
+    <div class="invelope">    
+     
+           
+         
 
        
        
@@ -55,27 +65,18 @@
                    
 
             </section>
-            <section class="historia">
-                <h3 class="titulisOfi"> ============</h3>
-                <p>
-                   <h3 class="marcaçãoInf"> ============ </h3>  
-                 
 
-                </p>
-
-            </section>
-
-        <div >
-            <aside class="barraLateral">
+            <aside class="barraLateral ">
                 <h2 class="MusicaTitulo">Musicas</h2>
                     <ol >
                            
                         <h4 class="Musica">Cante</h4>
-                        <audio preolad="metadata" controls pause loop>
-                            <source  src="../../MuicasOficinaG3/Oficina_G3_Cante_feat_Mateus_Asato_PG_e_Walter_Lopes.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
-                            
-                        </audio>
-                
+                        <div class="audio">
+                            <audio preolad="metadata" controls pause loop>
+                                <source  src="../../MuicasOficinaG3/Oficina_G3_Cante_feat_Mateus_Asato_PG_e_Walter_Lopes.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
+                                
+                            </audio>
+                        </div>
                         <h4 class="Musica">Davi</h4>
                         <audio preolad="metadata" controls pause loop>
                             <source  src="../../MuicasOficinaG3/Oficina_G3_-_Acústico_-_03_Davi.mp3" type="audio/mp3"><!--<li><a class="Musica" href="#"> Cante </a></li>-->
@@ -131,6 +132,18 @@
 
             </aside>
 
+            <section class="historia">
+                <h3 class="titulisOfi"> ============</h3>
+                <p>
+                   <h3 class="marcaçãoInf"> ============ </h3>  
+                 
+
+                </p>
+
+            </section>
+
+        <div >
+            
 
 
         </div>

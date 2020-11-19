@@ -1,0 +1,94 @@
+
+.historia{
+    margin-top: 50px;
+    height: auto;
+    width: 700px;
+    background-size:cover ;
+    background: rgb(227, 227, 243);
+    float: left;
+    border-top: 2px solid rgba(189, 189, 189, 0.671);
+    text-align: justify;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    margin-bottom:10px;
+    
+
+}
+.titulisOfi{
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    font-family: 'Syne Mono', monospace;
+    background-color: rgba(71, 71, 71, 0.123);
+}
+/*
+.secao:nth-child(1){
+    background-image: url(../../img/EwertonIMG/img9.jpg);
+    width: 1100px;
+    background-size:cover ;
+}
+.secao:nth-child(2){
+    background-image: url(../../img/EwertonIMG/img8.jpg);
+    background-size:cover ;
+    width: 1100px;
+}
+.secao:nth-child(3){
+    background-image: url(../../img/EwertonIMG/img4.jpg);
+    background-size:cover ;
+    width: 1100px;
+}
+.secao:nth-child(4){
+    background-image: url(../../img/EwertonIMG/img7.jpg);
+    background-size:cover ;
+    width: 1100px;
+    
+}*/
+section#Secao1{
+    /*Gospel Collection*/
+    background-image: url(../../img/EwertonIMG/img6.jpg);
+    width: 100%;
+    margin-top: 50px;
+}
+section#Secao2{
+    /*Historias e Bicicletas*/
+    background-image: url(../../img/EwertonIMG/img5.jpg);
+    width: 100%;
+}
+section#Secao3{
+    /*Dvd Acustico*/
+    background-image: url(../../img/EwertonIMG/guitarra.jpg);
+    width: 100%;
+}
+section#Secao4{
+    background-image: url(../../img/EwertonIMG/img8.jpg);
+    width: 100%;
+}
+
+.secao{
+    background: rgb(227, 227, 243);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    /*border-top: 2px solid rgba(189, 189, 189, 0.671);*/
+    text-align: justify;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    
+    
+
+}
+section p {
+
+    padding: 10px;
+    
+
+}
+
+.marcaçãoInf{
+    background: rgba(129, 129, 129, 0.534);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 4px;
+
+}
