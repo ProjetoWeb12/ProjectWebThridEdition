@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/EwertonIMG/OficinaG3.jpg" type="image/x-icon">
+    <!--Links dos arquivos .css-->
+    <link rel="stylesheet" href="../../css/cssEwerton/TemaEscuro.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/StyleEwerton.css" >
+    <link rel="stylesheet" href="../../css//cssEwerton/reset.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/barraLateral.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/secao.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/rodape.css">
+    <link rel="stylesheet" href="../../css/cssEwerton/header.css">
+    <script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="java.js"></script>
+    <title>OficinaG3</title>
+</head>
+<body>
+    <input type="checkbox" name=""  id="dark">
+    
+  <div class="box">   
+  
+      
+       <header id="Topo"> 
+           
+                <h1 class="tituloTopo"><img class="imgTopo" src="../../img/EwertonIMG/OficinaG3.jpg" alt=""> OficinaG3 <h2 class="hdaEstilo">HdA Productions</h2></h1>
+                 
+                <nav>
+                        <ul class="menuFixado">
+                            <li class="menu"><a class="ancora" href="OficinaG3.html">Historia</a></li>
+                            <li class="menu"><a class="ancora" href="AlbunsEwe.html">Albuns</a></li>
+                            <li class="menu"><a class="ancora" href="Produtos.html">Produtos</a></li>
+                            <li class="menu"><a class="ancora" href="../../../../index.html">Volta</a></li>
+                            <label class="textDark temaDark" for="dark">Tema Dark</label>  
+                        </ul>
+                    </nav>
+                
+
+            </header>
+            <!--COLOCA ALGO NA BARRA LATERAL PARA PRENECHER O VAZIO-->
+
+    <div class="invelope">    
+
+            <section class="historia">
+                <h3 class="titulisOfi"> Produtos <h3>
+                <p>
+                 
+                 <!--   <h3 class="marcaçãoInf"> ============ </h3>  
+                 <iframe src="https://projetoweb12.github.io/ProjectWebThridEdition/" frameborder="0" width="300px" height="200px"></iframe>
+                 -->
+                <table>
+                    <caption>Albuns OficinaG3</caption>
+
+                 
+                    <thead>
+                        <tr>
+                            <th scope="col">Ano</th>
+                            <th scope="col">Titulo</th>
+                            <th scope="col">Certificação</th>
+                            <th scope="col">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2014</td>
+                            <td>Gospel Colection</td>
+                            <td></td>
+                            <td>R$ 20</td>
+                        </tr>
+                        <tr>
+                            <td>2015</td>
+                            <td>Historias & Bicicletas</td>
+                            <td></td>
+                            <td>R$ 30</td>
+                        </tr>
+                        <tr>
+                            <td>1999</td>
+                            <td>Dvd Acustico</td>
+                            <td></td>
+                            <td>R$ 25</td>
+                        </tr>
+                        <tr> 
+                            <td>2002</td>
+                            <td>O tempo</td>
+                            <td >BRA Disco de Ouro</td>
+                            <td>R$ 35</td>
+                        </tr>
+                        <tr>
+                            <td>2010</td>
+                            <td>Depois da guerra</td>
+                            <td>BRA Disco de Ouro</td>
+                            <td>R$ 40</td>
+
+                        </tr>
+                        
+                    </tbody>
+                    
+
+                </table>  
+                </p>
+                
+
+            </section>
+            <section class="produtosAlb">
+                
+                <label for="btnProd"><img class="imgPrdot" src="../../img/EwertonIMG/Oficina_G3_-_Gospel_Collection.jpg"alt=""></label>
+                
+
+                <div class="prod">
+                    <form action="#" method="GET"  oninput="itot.value = Number(ipreco.value)*Number(iquant.value)">
+                       <p><h4> Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
+                        <p><label for="imail">E-mail:</label>
+                        <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
+                        <p><label for="isenha">Senha:</label>
+
+                        <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                        
+
+                        <p><label for="iquant">Quantidade</label>
+                        <input type="number" name="quant" id="iquant" required></p>
+                        <p><label for="ipreco">Preço : R$</label>
+
+                        <input type="number" name="preco" id="ipreco" required>
+                        
+                        <label for="itot">Total R$</label>
+                        <output name="tot" id="itot">0</output>
+                        
+                        <input type="submit" name="" value="Enviar" id="env"></p>
+
+                      
+                    </form>
+
+                    
+                </div>
+                <img class="imgPrdot" src="../../img/EwertonIMG/hstDBicle.jpg" alt="">
+
+
+                <div class="prod">
+                    <form action="#" method="GET"  oninput="itot.value = Number(ipreco.value)*Number(iquant.value)">
+                         <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
+                        <p><label for="imail">E-mail:</label>
+                        <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
+                        <p><label for="isenha">Senha:</label>
+
+                        <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                        
+
+                        <p><label for="iquant">Quantidade</label>
+                        <input type="number" name="quant" id="iquant" required></p>
+                        <p><label for="ipreco">Preço : R$</label>
+
+                        <input type="number" name="preco" id="ipreco" required>
+                        
+                        <label for="itot">Total R$</label>
+                        <output name="tot" id="itot">0</output>
+                        
+                        <input type="submit" name="" value="Enviar" id="env"></p>
+
+                    </form>
+
+                    
+                </div>
+             
+             
+              
+               
+               
+            </section>
+       
+    </div>    
+        
+    </div>
+    <footer>  <p>Todos os Direitos Reservados &copy;HdA Productions 2020</p>
+        <div>
+            <a href="https://github.com/ProjetoWeb12"><i class="fab fa-github-square"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a class="volta" href="#Topo">&#11014;Topo</a>
+        </div>
+        </footer>
+    
+</body>
+</html>

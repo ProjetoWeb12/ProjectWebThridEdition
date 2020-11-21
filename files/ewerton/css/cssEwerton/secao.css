@@ -66,6 +66,10 @@ section#Secao4{
     background-image: url(../../img/EwertonIMG/img8.jpg);
     width: 100%;
 }
+section#Secao5{
+    background-image: url(../../img/EwertonIMG/capaTopoOficinaG3.jpg);
+    width: 100%;
+}
 
 .secao{
     background: rgb(227, 227, 243);
@@ -85,11 +89,111 @@ section p {
     
 
 }
+.produtosAlb{
+    float: left;
+    width: 740px;
+    height: auto;
+    background-color: rgb(201, 201, 248);
+    margin-bottom: 5px;
+    border-top: 3px solid rgb(143, 136, 238);
+}
+
+
+.prod h4{
+    padding: 5px;
+    text-align: center;
+  
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+.mtscd{
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    float: right;
+
+}
+.prod form{
+    background-image: url(../../img/EwertonIMG/Nubank.png);
+    background-attachment: fixed;
+    top: 0px;
+   
+}
+.prod{
+    border-radius: 10px;
+    background-color: rgb(168, 84, 247);
+    width: 480px;
+    float: right;
+    margin: 4px 15px 4px 4px;
+    font-family: 'Syne Mono';
+    color: rgb(255, 255, 255);
+   
+}
+input{
+    outline: 0px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 3px;
+    display: inline-block;
+}
+#btnProd{
+    display: none;
+    border: 1px solid blue;
+    
+}
+
+.imgPrdot{
+    max-width: 220px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+    margin: 10px 0px 10px 5px;
+    border-radius: 5%;
+    border: 3px solid black;
+}
+#btnProd:checked~.imgPrdot{
+    border: 3px solid rgb(255, 255, 255);
+}
 
 .marcaçãoInf{
     background: rgba(129, 129, 129, 0.534);
     margin-left: 40px;
     margin-right: 40px;
     padding: 4px;
+
+}
+
+table{
+    font-family: 'Syne Mono', monospace;
+    margin: auto;
+    width: 650px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td, th{
+    border: 1px solid black;
+    padding: 2px;
+}
+caption{
+    font-weight:bolder ;
+    font-size: 20px;
+    background-color: rgb(196, 196, 255);
+    padding: 3px;
+    border-top: 1px solid rgb(162, 162, 247);
+}
+thead{
+    background-color: rgb(161, 161, 255);   
+    color: white;
+}
+tbody>tr:nth-child(odd){
+    background-color: rgb(192, 192, 241);
+    color: rgb(71, 71, 71);
+}
+tbody>tr:nth-child(even){
+    background-color: rgb(222, 222, 238);
+    color: rgb(43, 43, 43);
 
 }

@@ -1,19 +1,39 @@
-footer{
-	padding-top: 10px;
-	height: 70px;
-	width: 100%;
-	background-color: #00001a;
-	color: white;
-    text-align: center;
-    clear: both;
-    margin-top: 30px;
-    display: block;
-}
+
+
+
 .volta{
     font-size: 40px;
     position:relative;top: 10px;left: 300px;
     font-family: 'Shadows Into Light', cursive;
     color: rgb(240, 240, 240);
     height: 40px;
-
+    transition: all 1s ease;
+}
+.volta:hover{
+    color:#00ace6;
+    -webkit-filter: drop-shadow(2px 2px 20px  #00ace6);
+    filter: drop-shadow(2px 2px 20px  #00ace6);
+}
+footer{
+    clear: both; 
+    padding-top: 20px;
+    padding-bottom: 22px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+footer div{ 
+    font-size: 30px;
+}
+footer div a{
+    color: #fff;
+}
+footer div i{
+    transition: all 1s ease;
+}
+footer div i:hover{
+    box-shadow: 2px 2px 20px #00ace6;
+    color:#00ace6;
 }

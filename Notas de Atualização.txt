@@ -49,5 +49,8 @@ João Paulo -> Tags semânticas atualizadas, organização do conteúdo, box sha
 Quarta entrega:
 	Ewerton : 
 	Atualização no header e footer; 
-	background-image no body 
-	
+	background-image no body
+	nova pagina de produtos 
+		adcionado tabelas
+		adcionados form
+			
