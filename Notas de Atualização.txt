@@ -51,6 +51,13 @@ Quarta entrega:
 	Atualização no header e footer; 
 	background-image no body
 	nova pagina de produtos 
-		adcionado tabelas
-		adcionados form
+		adicionado tabelas
+		adicionados form
 			
+    Rute->
+	Atualização no header e footer;
+	Adicionadas tabelas no arquivo projota e legião urbana, como título a tabela, cabeçalho das colunas e mesclagem de linhas e colunas.
+	Background-image no body.
+
+
+
