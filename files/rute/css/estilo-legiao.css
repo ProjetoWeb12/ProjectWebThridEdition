@@ -1,7 +1,7 @@
 body{
     width: 1000px;
     margin: auto;
-    background-image: url('../img/Tela-legiao.jpg');
+    background-image: url(../img/Tela-legiao.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -21,7 +21,7 @@ h1{
 div.tela{
     font-family: 'Steve Mattesson', 'sans-serif';
     color: black;
-    width: 315px;
+    width: 225px;
     display: inline-block;
     font-size: 2.5em;
     margin-left: 15px;
@@ -92,6 +92,46 @@ h4{
     margin: auto;
    margin-bottom: 10px;
     text-align: left;
+}
+table{
+    width: 1000px;
+    border-collapse: separate;
+    text-align: center;
+    font-family: 'Bree Serif';
+}
+td,th{
+    border: 1px solid black;
+}
+caption{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    background-color:#8c8c8c;
+    border-radius: 10px 0px;
+    color: black;
+    text-shadow: 1px 1px 0px white;
+    box-shadow: 2px 2px 1px black;
+}
+thead{
+    background-color:#595959;
+    color: black;
+    font-size: 1.2em;
+}
+tbody > tr:nth-child(even){
+    background-color: gray;
+    color: black;
+}
+tbody > tr:nth-child(odd){
+    background-color:gray;
+    color: black;
+}
+tfoot{
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    background-color: #595959;
 }
 footer{
     text-align: center;
