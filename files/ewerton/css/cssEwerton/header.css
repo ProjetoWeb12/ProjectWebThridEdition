@@ -47,7 +47,7 @@ body{
     width: 100%;
     font-size: 40px;
     font-family: 'Syne Mono';
-    background: rgba(115, 115, 241, 0.432);
+    background: rgba(115, 115, 241, 0.541);
     -webkit-filter: drop-shadow(0px 0px 5px black);
     filter: drop-shadow(0px 0px 5px black);
     letter-spacing: 3px;
@@ -56,6 +56,13 @@ body{
     padding: 0px;
     position: fixed;
     z-index:1;/*para sobrepor o titulo do resto da pagina*/
+}
+.iframeTopo{
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    
+
 }
 .imgTopo{
     float: left;

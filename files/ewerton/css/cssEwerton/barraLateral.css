@@ -199,3 +199,7 @@ audio{
 aside audio{
 margin-left: 20px;
 }
+.frameMusic{
+    width: 350px;
+    height: 500px;
+}
