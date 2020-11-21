@@ -53,4 +53,5 @@ Quarta entrega:
 	nova pagina de produtos 
 		adcionado tabelas
 		adcionados form
-			
+
+    Jaqueline -> adicionando tabela com mesclagem de colunas e linhas "zebradas"			
