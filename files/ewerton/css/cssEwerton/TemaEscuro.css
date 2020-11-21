@@ -57,13 +57,14 @@
     
 
 }
-#dark:checked ~.box h1{
+#dark:checked ~.box .tituloTopo{
     background: rgb(58, 58, 58);
     
     color: rgb(187, 187, 187);
     
 
-} 
+}
+
 #dark:checked ~.box .historia{
     background: rgb(20, 20, 20);
    
