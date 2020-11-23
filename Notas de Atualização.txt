@@ -56,8 +56,11 @@ Quarta entrega:
 			
     Rute->
 	Atualização no header e footer;
-	Adicionadas tabelas no arquivo projota e legião urbana, como título a tabela, cabeçalho das colunas e mesclagem de linhas e colunas.
 	Background-image no body.
+	Adicionadas tabelas no arquivo projota e legião urbana, como título a tabela, cabeçalho das colunas e mesclagem de linhas e colunas.
+	Tabela pode ser encontrada no arquivo projota.html linhas(106 a 158) configurações e estilo no style_projota.css linhas(112 a 151).
+	E a outra tabela no arquivo legiao.html linhas(110 há 162) configurações e estilo no estilo-legiao.css(96 a 135).
+
 
 
 
