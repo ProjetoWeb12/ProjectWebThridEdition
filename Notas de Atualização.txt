@@ -60,7 +60,7 @@ Quarta entrega:
 
 		adicionado tabelas
 		adicionados form
-		teste
+		
 			
     Rute->
 	Atualização no header e footer;
