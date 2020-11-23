@@ -1,4 +1,4 @@
-﻿Terceira Entrega:
+Terceira Entrega:
 
 Douglas -> index melhorado (em vários lugares foram estilizados as bordas, como no header ou nos buttons, box-shadow foi ultilizado ferrenhamente para criar efeito neon (no nav-bar do header, na logo, no título principal. no footer e nos buttons), para o alinhamento dos buttons usai margem em porcentagem para ter um pouco de responsividade, essas configurações podem ser encontradas em /files/doug/css/style_index.css), página beatles criada (semelhante às configurações do index mas com uma paleta de cores mais harmônicas e com um plus de efeito parallax em todas as fotos de albuns, as configurações de borda, margem e preenchimento podem ser encontradas em /files/doug/css/beatles.css {obs: não foram usadas shadow-box nem text-shadow pelo motivo de ter ficado estranho}).
 ﻿
@@ -51,6 +51,9 @@ Quarta entrega:
 	Atualização no header e footer; 
 	background-image no body
 	nova pagina de produtos 
+        tabelas adicionadas na pagina produtos
+        form adicionados na pagina produtos
+    iframes adicionados na pagina principal 
   
  teste-jaque
 		adcionado tabelas
