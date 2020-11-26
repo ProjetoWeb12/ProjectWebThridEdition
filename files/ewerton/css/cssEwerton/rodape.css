@@ -1,4 +1,11 @@
+/*estilo para celulares=====================*/
 
+
+/*Estilo para tablets========================*/
+
+
+
+/*Estilo para impressoras=====================*/
 
 
 .volta{
@@ -23,6 +30,7 @@ footer{
     color: white;
     text-align: center;
     font-size: 15px;
+    height: 60px;
 }
 footer div{ 
     font-size: 30px;

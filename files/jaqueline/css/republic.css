@@ -156,3 +156,21 @@ h3{
 	margin: 3px;
 	padding: 5px;	
 }
+table{
+	width: 580px;
+	height: 170px;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;	
+}
+caption{
+	font-weight: bolder;
+	background-color: rgb(236,236,236);
+}
+tbody > tr:nth-child(even){
+	background-color: #dddddd;
+}
+tbody > tr:nth-child(odd){
+	background-color: lightslategray;
+}
