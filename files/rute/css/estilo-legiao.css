@@ -1,7 +1,7 @@
 body{
     width: 1000px;
     margin: auto;
-    background-image: url(../img/Tela-legiao.jpg);
+    background-image: url('../img/Tela-legiao.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

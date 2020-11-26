@@ -1,9 +1,10 @@
 @charset "UTF-8";
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width:1000px;
     margin: auto; 
-    background-image: url('../img/Tela-legiao.jpg');  
+    background-image: url('../img/TelaPrincipal-projota.png');  
     background-repeat: no-repeat;
     background-image: center top;
     background-size: cover;
