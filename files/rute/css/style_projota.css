@@ -153,7 +153,7 @@ tfoot{
 footer{
     text-align: center;
     font-size: 1em;
-    color: gray;
+    color: black;
     clear: both;
     border-top: 1px solid gray; 
 }
