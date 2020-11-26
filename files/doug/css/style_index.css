@@ -115,5 +115,11 @@ audio .music{
 }
 
 
-
+@media (max-width: 600px){
+	aside button{
+		width: 40%;
+		margin-left: 7%;
+		height: 45px;
+	}
+}
 
