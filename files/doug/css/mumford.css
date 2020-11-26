@@ -6,8 +6,9 @@
 body{
 	background-image: url("../img/mumford.jpg");
 	background-color: #765728;
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: scroll;
 }
 
 header{
@@ -19,6 +20,17 @@ header{
 }
 header h2{
 	margin: 20px 0 0 20px;
+}
+
+.home {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 10%;
+	background-color: #000;
+	border-radius: 10px;
+	padding: 10px;
+	width: 60px;
+	height: 30px;
 }
 
 .card {
@@ -40,3 +52,30 @@ div .card p{
 	margin: 20px 20px;
 }
 
+section img{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 20px;
+	width: 60%;
+	height: auto;
+	border-radius: 20px;
+}
+
+
+@media (max-width: 700px){
+	body{
+		background-image: url("../img/mumford_cell.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 701px) and (max-width: 950px) {
+	body{
+		background-image: url("../img/mumford_tablet.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
