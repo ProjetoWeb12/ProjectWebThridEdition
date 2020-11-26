@@ -52,10 +52,8 @@ div .card p{
 	margin: 20px 20px;
 }
 
-section img{
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 20px;
+div img{
+	padding: 20px;
 	width: 60%;
 	height: auto;
 	border-radius: 20px;
