@@ -18,7 +18,8 @@
     a.AmdqMenu{
         z-index: 100;
         position: fixed;
-        left: 245px;
+        left: 307px;
+        top:40px;
     }
 
     a#menu1{
@@ -33,6 +34,23 @@
     ul#menu2{
         position: absolute;
         display: none;
+
+     
+        height: auto;
+        background: rgb(121, 26, 26);
+        padding: 6px;
+        border-bottom: 2px solid black;
+    }
+    a.AncoraAlbuns{
+        width: 100px;
+        margin: auto;
+        
+    }
+    
+    li.menu{
+        width: 100%;
+        
+        
     }
     li.menu:hover ul#menu2{
         display: block;
