@@ -34,6 +34,9 @@
 #dark:checked~.box body{
     background-color: black;
 }
+#dark:checked~.box .hdaEstilo{
+    background-color: rgba(0, 0, 0, 0.671);
+}
 #dark{
     display: none;
     height: 0px;

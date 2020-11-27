@@ -77,6 +77,12 @@ a:link, a:visited{
     /*position: relative;top: -6px ;left: 80px;*/       
     
 }
+#menu1{
+    display: none;
+}
+#menu2{
+    display: block;
+}
 ul li{
     position: relative;
     
@@ -107,16 +113,16 @@ li:hover ul{
    
     width: 350px;
     height: auto;
-    background: rgb(227, 227, 243);
+    background: rgb(121, 26, 26);
     box-shadow: 0px 0px 5px rgb(88, 88, 88);
     float: right;
-    margin-top: 35px;
+    margin-top: 59px;
 
 }
 .meunAlbuns{
     width: 220px;
     height: auto;
-    background: rgba(115, 115, 241, 0.432);
+    background: rgba(224, 12, 12, 0.856);
     padding: 6px;
     border-bottom: 2px solid black;
     
@@ -161,7 +167,7 @@ ol li {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 15px;
-    border-top:1px solid rgb(104, 104, 104);
+    border-top:1px solid rgb(0, 0, 0);
     font-family: 'Syne Mono', monospace;
     top :8px ;
     left: 1px;
@@ -195,6 +201,9 @@ audio{
     height: 30px; 
 
     
+}
+source{
+    background-color: blue;
 }
 aside audio{
 margin-left: 20px;
