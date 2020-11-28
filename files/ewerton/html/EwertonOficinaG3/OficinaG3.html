@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../img/EwertonIMG/OficinaG3.jpg" type="image/x-icon">
     <!--Links dos arquivos .css-->
-    
+    <link rel="stylesheet" href="../../css/cssEwerton/MediaQueries.css">
     <link rel="stylesheet" href="../../css/cssEwerton/TemaEscuro.css">
     <link rel="stylesheet" href="../../css/cssEwerton/StyleEwerton.css" >
     <link rel="stylesheet" href="../../css//cssEwerton/reset.css">
@@ -35,21 +35,33 @@
       
        <header id="Topo">
           
-          
+          <h2 class="hdaEstilo">HdA Productions</h2> 
+                <h1 class="tituloTopo"><img class="imgTopo" src="../../img/EwertonIMG/OficinaG3.jpg" alt=""> OficinaG3 </h1>
                
-                <h1 class="tituloTopo"><img class="imgTopo" src="../../img/EwertonIMG/OficinaG3.jpg" alt=""> OficinaG3 <h2 class="hdaEstilo">HdA Productions</h2></h1>
-                 
-                    <nav>
-                        <ul class="menuFixado">
-                           
-                            <li class="menu"><a class="ancora" href="OficinaG3.html">Historia</a></li>
-                            <li class="menu"><a class="ancora" href="AlbunsEwe.html">Albuns</a></li>
-                            <li class="menu"><a class="ancora" href="Produtos.html">Produtos</a></li>
-                            <li class="menu"><a class="ancora" href="../../../../index.html">Volta</a></li>
-                            <label class="textDark temaDark" for="dark">Tema Dark</label>  
-                        </ul>
+                
+                    <nav>            
+                        <div id="idmenu">
+                            <ul>
+                                <li class="menu"><a  id="menu1"class="ancora AmdqMenu" href="#">Menu</a>
+                                              
+                                    <ul id="menu2" class="menuFixado">
+                                    
+                                        <li class="menu"><a class="AncoraAlbuns" href="OficinaG3.html">Historia</a></li>
+                                        <li class="menu"><a class="AncoraAlbuns" href="AlbunsEwe.html">Albuns</a></li>
+                                        <li class="menu"><a class="AncoraAlbuns" href="Produtos.html">Produtos</a></li>
+                                        <li class="menu"><a class="AncoraAlbuns" href="../../../../index.html">Volta</a></li>
+                                        
+                                        <li><label class="textDark temaDark" for="dark">Tema Dark</label></li> 
+
+
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div> 
                     </nav>
-                        
+                
+
             </header>
         
 
@@ -57,7 +69,8 @@
        
        
             <section class="historia">
-                <h3 class="titulisOfi">Historia da Banda</h3>
+                                   
+                <h3 class="titulisOfi">Historia da Banda</h3> <!--<Label for="idmusic"> Menu </Label>-->  
                 
                 <p>  Oficina G3 é uma banda brasileira de rock e metal, com temáticas cristãs, formada na cidade de São Paulo em 1987. Fundada por Juninho Afram, Wagner García, Walter Lopes, Túlio Régis e Luciano Manga, no fim da década de 1980, o conjunto passou por vários subgêneros do rock e formações. Juninho é o membro mais antigo e o único da formação original a participar de todos os discos lançados pela banda. <br> A banda já venceu e foi indicada, por várias vezes, em premiações como os troféus Talento, Promessas e Grammy Latino, por suas produções.
                   
@@ -68,12 +81,14 @@
                    
 
             </section>
-            <label class="PmnMedQ" for="PmnMedQ">Barra</label>  
+           
             <aside  class="barraLateral">
                                        
                 <div id="musica">
                 <h2 class="MusicaTitulo">Musicas</h2>
-               <iframe class="frameMusic" src="iframeMusic.html" frameborder="0"></iframe>
+                
+                <iframe class="frameMusic" src="iframeMusic.html" frameborder="0"></iframe>
+                
                     <h2 class="MusicaTitulo">Informações da Banda </h2>
                     
                     <ol >

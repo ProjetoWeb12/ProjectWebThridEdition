@@ -1,0 +1,107 @@
+@media screen and (min-width: 360px) and (max-width: 460px){
+
+    body{
+        width: 360px;
+        margin: auto;
+    }
+    section.historia{
+        
+        width: 300px;
+    }
+    h1.tituloTopo{
+        width: 360px;
+
+    }
+    h2.hdaEstilo{
+        width: 360px;
+    }
+    a.AmdqMenu{
+        z-index: 100;
+        position: fixed;
+        left: 307px;
+        top:40px;
+    }
+
+    a#menu1{
+        display: block;
+    }
+
+
+    ul#menu2 a#menu1{
+        position: relative;
+        
+    }
+    ul#menu2{
+        position: absolute;
+        display: none;
+
+     
+        height: auto;
+        background: rgb(121, 26, 26);
+        padding: 6px;
+        border-bottom: 2px solid black;
+    }
+    a.AncoraAlbuns{
+        width: 100px;
+        margin: auto;
+        
+    }
+    
+    li.menu{
+        width: 100%;
+        
+        
+    }
+    li.menu:hover ul#menu2{
+        display: block;
+    }
+    
+    
+  
+    /*
+    #idmenu .menuFixado{
+        display: none;
+        position: absolute;
+
+    }
+    a.AmdqMenu:hover #idmenu.menuFixado{
+        display: block;
+    }*/
+   
+    /*
+    #idmenu{
+       display: none;
+    }
+
+    #idbtnMdQ:hover #idmenu{
+        display: block;
+    }*/
+
+    li.menu{
+        margin-top: 13px;
+        
+      
+    }
+   
+    
+    ul.menuFixado{
+    
+        position: fixed;
+        top: 20px;
+        left: 190px;
+        z-index:2;
+
+        text-align: right;
+        background-color: blue;
+        width: 110px;
+        height: auto;
+        display: inline-block;
+        
+        
+       /*Classe ligada ao menu da pagina principal*/
+    }
+      
+    
+    
+
+}
