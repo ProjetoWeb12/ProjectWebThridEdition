@@ -233,6 +233,16 @@ tbody > tr:nth-child(odd){
 		width: 580px;
 	}
 
+	
+	.inframe-borda{
+		width: 570px;
+	}
+	
+
+
+}
+
+
 	.inframe-borda{
 		width: 570px;
 	}
@@ -240,3 +250,4 @@ tbody > tr:nth-child(odd){
 
 
 } 
+
