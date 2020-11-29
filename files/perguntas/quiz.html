@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" crossorigin="anonymous"></script>
     <title>Perguntas</title>
 </head>
-<body>
+<body id="body">
     
     <aside>
         <form action="#">
@@ -52,13 +53,13 @@
             </p>
                 
                 <p>
-                    <label for="pgt3">3 - Em sua opinião, qual das opções abaixo é o melhor sistema operacional?</label> 
+                    <label for="pgt3">3 - Em sua opinião, qual das opções abaixo é o melhor sistema operacional? (Doble-cick para ver as opções)</label> 
                     <br>
                         <input type="text" name="pergunta3" id="pgt3" list="listpgt3" required>
                             <datalist id="listpgt3">
 
                                 <optgroup label="pgt3a">
-                                    <option id="pgt3a" value="Línux Mint"></option>
+                                    <option id="pgt3a" value="Linux Mint"></option>
                                 </optgroup>
 
                                 <optgroup label="pgt3b">
@@ -112,24 +113,24 @@
             <p>
                 <legend>6 - Qual seria a refeição que mais te atrai?</legend>
                 <p>
-                    <input type="radio" name="pgt6" id="pgt6a">
+                    <input type="radio" name="pgt6" id="pgt6a" required>
                     <label for="pgt6a">Lasanha</label>
                 </p>
                 <p>
-                    <input type="radio" name="pgt6" id="pgt6b">
+                    <input type="radio" name="pgt6" id="pgt6b" required>
                     <label for="pgt6b">Bolo</label>
                 </p>
                 <p>
-                    <input type="radio" name="pgt6" id="pgt6c">
+                    <input type="radio" name="pgt6" id="pgt6c" required>
                     <label for="pgta6c">Pudim</label>
 
                 </p>
                 <p>
-                    <input type="radio" name="pgt6" id="pgt6d">
+                    <input type="radio" name="pgt6" id="pgt6d" required>
                     <label for="pgt6c">Sorvete</label>
                 </p>
                 <p>
-                    <input type="radio" name="pgt6" id="pgt6e">
+                    <input type="radio" name="pgt6" id="pgt6e" required>
                     <label for="pgt6">Churrasco</label>
                 </p>
                
@@ -157,28 +158,33 @@
                     <label for="pgt7e">Teletransporte</label>
                 </p>
             </p>
-            <p>
-                <h2>informações opcionias</h2>
-                <label for="opn">Nos de uma Opnião sobre essas perguntas</label><br>
-                <textarea name="desc" id="opn" cols="30" rows="10"></textarea>
+            <div class="inf">
+                <p>
+                    <h2>informações opcionias</h2>
+                    <label for="opn">Nos de uma Opnião sobre essas perguntas</label><br>
+                    <textarea name="desc" id="opn" cols="30" rows="10"></textarea>
 
-            </p>
-            <p>
-                
-                <label for="idata">Data :</label>
-                <input type="date" name="date" id="idata">
-            </p>
-            <p>
-                <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" pattern="\([0-9]{2}\)([\s] [0-9]{4,6}-[0-9]{4})" placeholder="(XX) XXXX-XXXX">
+                </p>
+                <p>
+                    
+                    <label for="idata">Data de nascimento:</label>
+                    <input type="date" name="date" id="idata">
+                </p>
+                <p>
+                    <label for="itel">Telefone para contato:</label>
+                    <input type="tel" name="tel" id="itel" pattern="\([0-9]{2}\)([\s] [0-9]{4,6}-[0-9]{4})" placeholder="(XX) XXXX-XXXX">
 
-            </p>
-            <p>
-            <input type="submit" value="Enviar">
-            </p>
+                </p>
+            </div>    
+                <p>
+                <button type="submit" onclick="quiz();" id="button">Calcular</button>
+                    <a href="../../index.html">Volta</a>
+                </p>
+            
         </form>
         <br>
 
     </aside>
+    <script src="script.js"></script>
 </body>
 </html>
