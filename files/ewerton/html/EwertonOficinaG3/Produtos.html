@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../img/EwertonIMG/OficinaG3.jpg" type="image/x-icon">
     <!--Links dos arquivos .css-->
+
+    <link rel="stylesheet" href="../../css/cssEwerton/MediaQueries.css">
     <link rel="stylesheet" href="../../css/cssEwerton/TemaEscuro.css">
     <link rel="stylesheet" href="../../css/cssEwerton/StyleEwerton.css" >
     <link rel="stylesheet" href="../../css//cssEwerton/reset.css">
@@ -31,15 +33,28 @@
            
                 <h1 class="tituloTopo"><img class="imgTopo" src="../../img/EwertonIMG/OficinaG3.jpg" alt=""> OficinaG3 <h2 class="hdaEstilo">HdA Productions</h2></h1>
                  
-                <nav>
-                        <ul class="menuFixado">
-                            <li class="menu"><a class="ancora" href="OficinaG3.html">Historia</a></li>
-                            <li class="menu"><a class="ancora" href="AlbunsEwe.html">Albuns</a></li>
-                            <li class="menu"><a class="ancora" href="Produtos.html">Produtos</a></li>
-                            <li class="menu"><a class="ancora" href="../../../../index.html">Volta</a></li>
-                            <label class="textDark temaDark" for="dark">Tema Dark</label>  
+                <nav>            
+                    <div>
+                        <ul> 
+                            
+                            <li class="menu"><a  id="menu1"class="ancora AmdqMenu dx">Menu</a>
+                                     
+                                <ul id="menu2" class="menuFixado">
+                                
+                                    <li class=""><a class="AncoraAlbuns" href="OficinaG3.html">Historia</a></li>
+                                    <li class=""><a class="AncoraAlbuns" href="AlbunsEwe.html">Albuns</a></li>
+                                    <li class=""><a class="AncoraAlbuns" href="Produtos.html">Produtos</a></li>
+                                    <li class=""><a class="AncoraAlbuns" href="../../../../index.html">Volta</a></li>
+                                    
+                                    <li><label class="textDark temaDark" for="dark">Tema Dark</label></li> 
+
+
+                                </ul>
+                            </li>
                         </ul>
-                    </nav>
+
+                    </div> 
+                </nav>
                 
 
             </header>
@@ -47,7 +62,7 @@
 
     <div class="invelope">    
 
-            <section class="historia">
+            <section class="historia hstp">
                 <h3 class="titulisOfi"> Produtos <h3>
                 <p>
                  
@@ -109,146 +124,176 @@
             </section>
             <section class="produtosAlb">
                 
-                <label for="btnProd"><img class="imgPrdot" src="../../img/EwertonIMG/Oficina_G3_-_Gospel_Collection.jpg"alt=""></label>
+            
                 
+                
+                <label for="btnProd"><img class="imgPrdot" src="../../img/EwertonIMG/Oficina_G3_-_Gospel_Collection.jpg"alt=""></label>
+                <scroll-container>
+                    <scroll-page >
 
-                <div class="prod">
-                    <form action="#" method="GET"  oninput="itot.value =20*Number(iquant.value)">
-                       <p><h4> Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
-                        <p><label for="imail">E-mail:</label>
-                        <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
-                        <p><label for="isenha">Senha:</label>
+                    <div class="prod">
+                        <form action="#" method="GET"  oninput="itot.value =20*Number(iquant.value)">
+                        <p><h4> Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
+                            <p><label for="imail">E-mail:</label>
+                            <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
+                            <p><label for="isenha">Senha:</label>
 
-                        <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                            <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                            
+
+                            <p>
+                                <label for="iquant">Quantidade</label>
+                                <input type="number" name="quant" id="iquant" required>
+                                <label class="preco"  for="ipreco">Preço: R$20</label>
+
+                                
+                                <label for="itot">Total R$</label>
+                                <output name="tot" id="itot">0</output>
+                                
+                                <input type="submit" name="" value="Enviar" id="env" onclick="Enviar()">
+                            </p>
+
                         
-
-                        <p><label for="iquant">Quantidade</label>
-                        <input type="number" name="quant" id="iquant" required></p>
-                        <p><label class="preco"  for="ipreco">Preço: R$20</label>
+                        </form>
 
                         
-                        <label for="itot">Total R$</label>
-                        <output name="tot" id="itot">0</output>
-                        
-                        <input type="submit" name="" value="Enviar" id="env" onclick="Enviar()"></p>
-
-                      
-                    </form>
-
-                    
-                </div>
-               
+                    </div> 
+                    </scroll-page>
+                </scroll-container>
                
                 <img class="imgPrdot" src="../../img/EwertonIMG/hstDBicle.jpg" alt="">
               
+                <scroll-container>
+                    <scroll-page >
 
-                <div class="prod">
-                    <form action="#" method="GET"  oninput="itot.value = 30*Number(iquant.value)">
-                         <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
-                        <p><label for="imail">E-mail:</label>
-                        <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
-                        <p><label for="isenha">Senha:</label>
+                        <div class="prod">
+                            <form action="#" method="GET"  oninput="itot.value = 30*Number(iquant.value)">
+                                <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
+                                <p><label for="imail">E-mail:</label>
+                                <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
+                                <p><label for="isenha">Senha:</label>
 
-                        <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                                <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                                
+
+                                <p>
+                                    <label for="iquant">Quantidade</label>
+                                    <input type="number" name="quant" id="iquant" required>
+                                    <label class="preco" for="ipreco">Preço: R$30</label>
+
+                                    
+                                    <label for="itot">Total R$</label>
+                                    <output name="tot" id="itot">0</output>
+                                    
+                                    <input type="submit" name="" value="Enviar" id="env">
+                                </p>
+
+                            </form>
+
+                            
+                        </div>
+                    </scroll-page >
+                </scroll-container>
                         
-
-                        <p><label for="iquant">Quantidade</label>
-                        <input type="number" name="quant" id="iquant" required></p>
-                        <p><label class="preco" for="ipreco">Preço: R$30</label>
-
-                        
-                        <label for="itot">Total R$</label>
-                        <output name="tot" id="itot">0</output>
-                        
-                        <input type="submit" name="" value="Enviar" id="env"></p>
-
-                    </form>
-
-                    
-                </div>
                 <img class="imgPrdot" src="../../img/EwertonIMG/Oficina_G3_-_Acústico_Ao_Vivo.jpg" alt="">
 
+                <scroll-container>
+                    <scroll-page >
+                        <div class="prod">
+                            <form action="#" method="GET"  oninput="itot.value =25*Number(iquant.value)">
+                                <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
+                                <p><label for="imail">E-mail:</label>
+                                <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
+                                <p><label for="isenha">Senha:</label>
 
-                <div class="prod">
-                    <form action="#" method="GET"  oninput="itot.value =25*Number(iquant.value)">
-                         <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
-                        <p><label for="imail">E-mail:</label>
-                        <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
-                        <p><label for="isenha">Senha:</label>
+                                <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                                
 
-                        <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
-                        
+                                <p>
+                                    <label for="iquant">Quantidade</label>
+                                    <input type="number" name="quant" id="iquant" required>
+                                    <label class="preco"  for="ipreco">Preço: R$25</label>
 
-                        <p><label for="iquant">Quantidade</label>
-                        <input type="number" name="quant" id="iquant" required></p>
-                        <p><label class="preco"  for="ipreco">Preço: R$25</label>
+                                    
+                                    <label for="itot">Total R$</label>
+                                    <output name="tot" id="itot">0</output>
+                                    
+                                    <input type="submit" name="" value="Enviar" id="env">
+                                </p>
 
-                        
-                        <label for="itot">Total R$</label>
-                        <output name="tot" id="itot">0</output>
-                        
-                        <input type="submit" name="" value="Enviar" id="env"></p>
+                            </form>
 
-                    </form>
+                            
+                        </div>
+                    </scroll-page>
+                </scroll-container>
 
-                    
-                </div>
                 <img class="imgPrdot" src="../../img/EwertonIMG/Oficina_G3_-_O_Tempo_2000.jpg" alt="">
 
+                <scroll-container>
+                    <scroll-page >
+                        <div class="prod">
+                            <form action="#" method="GET"  oninput="itot.value =35*Number(iquant.value)">
+                                <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
+                                <p><label for="imail">E-mail:</label>
+                                <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
+                                <p><label for="isenha">Senha:</label>
 
-                <div class="prod">
-                    <form action="#" method="GET"  oninput="itot.value =35*Number(iquant.value)">
-                         <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
-                        <p><label for="imail">E-mail:</label>
-                        <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
-                        <p><label for="isenha">Senha:</label>
+                                <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                                
 
-                        <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
-                        
+                                <p>
+                                    <label for="iquant">Quantidade</label>
+                                    <input type="number" name="quant" id="iquant" required>
+                                    <label class="preco"  for="ipreco">Preço: R$35</label>
 
-                        <p><label for="iquant">Quantidade</label>
-                        <input type="number" name="quant" id="iquant" required></p>
-                        <p><label class="preco"  for="ipreco">Preço: R$35</label>
+                                    
+                                    
+                                    <label for="itot">Total R$</label>
+                                    <output name="tot" id="itot">0</output>
+                                    
+                                    <input type="submit" name="" value="Enviar" id="env">
+                                </p>
 
-                        
-                        
-                        <label for="itot">Total R$</label>
-                        <output name="tot" id="itot">0</output>
-                        
-                        <input type="submit" name="" value="Enviar" id="env"></p>
+                            </form>
 
-                    </form>
+                            
+                        </div>
+                    </scroll-page>
+                </scroll-container>
 
-                    
-                </div>
                 <img class="imgPrdot" src="../../img/EwertonIMG/dpsDaGuerra.jpg" alt="">
 
+                <scroll-container>
+                    <scroll-page >
+                        <div class="prod">
+                            <form action="#" method="GET"  oninput="itot.value = 40*Number(iquant.value)">
+                                <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
+                                <p><label for="imail">E-mail:</label>
+                                <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
+                                <p><label for="isenha">Senha:</label>
 
-                <div class="prod">
-                    <form action="#" method="GET"  oninput="itot.value = 40*Number(iquant.value)">
-                         <p><h4>Compra do album <img class="mtscd" src="../../img/EwertonIMG/mastCard.png" alt=""></h4></p>
-                        <p><label for="imail">E-mail:</label>
-                        <input type="email" name="mail" id="imail" size="30" maxlength="50" required>
-                        <p><label for="isenha">Senha:</label>
+                                <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
+                                
 
-                        <input type="password" name="senha" id="isenha" minlength="3"maxlength="8" size="8" required>
-                        
+                                <p><label for="iquant">Quantidade</label>
+                                    <input type="number" name="quant" id="iquant" required>
+                                    <label class="preco"  for="ipreco">Preço: R$35</label>
+    
+                                    
+                                    
+                                    <label for="itot">Total R$</label>
+                                    <output name="tot" id="itot">0</output>
+                                    
+                                    <input type="submit" name="" value="Enviar" id="env">
+                                </p>
 
-                        <p><label for="iquant">Quantidade</label>
-                        <input type="number" name="quant" id="iquant" required></p>
-                        <p><label class="preco"  for="ipreco">Preço: R$40</label>
+                            </form>
 
-                        <input type="number" name="preco" id="ipreco" required>
-                        
-                        <label for="itot">Total R$</label>
-                        <output name="tot" id="itot">0</output>
-                        
-                        <input type="submit" name="" value="Enviar" id="env"></p>
-
-                    </form>
-
-                    
-                </div>
+                            
+                        </div>
+                    </scroll-page>
+                </scroll-container>
              
              
              

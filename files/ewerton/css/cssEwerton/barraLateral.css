@@ -39,6 +39,7 @@
     border-top: 1px solid rgba(0, 0, 0, 0.486);
 
 }
+
 a:link, a:visited{
 
     text-decoration: none;
@@ -68,16 +69,11 @@ a:link, a:visited{
     
 }
 /*barra de menu*/
-.menu{
-    
-    display: inline-block;
-    margin-bottom   : 10px;
-    margin-top: 0px;
-   
-    /*position: relative;top: -6px ;left: 80px;*/       
-    
-}
+
 #menu1{
+    display: none;
+}
+#menuBr{
     display: none;
 }
 #menu2{
@@ -93,7 +89,7 @@ li ul{
     top: 22px;
     
 }
-li:hover ul{
+li.mnAlb:hover ul{
     display: block;
 
 }
@@ -102,7 +98,7 @@ li:hover ul{
     
     position: fixed;
     top: 20px;
-    left: 600px;
+    left: 580px;
     z-index:2;
     
    /*Classe ligada ao menu da pagina principal*/
@@ -120,11 +116,14 @@ li:hover ul{
 
 }
 .meunAlbuns{
-    width: 220px;
+   
     height: auto;
     background: rgb(121, 26, 26);
     padding: 6px;
     border-bottom: 2px solid black;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    top: 32px;
+    
     
 
 }
@@ -132,19 +131,19 @@ li:hover ul{
     color: black;
     font-family: 'Syne Mono';
     background-color: rgba(235, 235, 245, 0.438);
-    padding: 2px;
+    padding: 8px;
     transition: all 1s ease;
-    width: 210px;
+    width: 110px;
     display: inline-block;
+    
 
 }
 .AncoraAlbuns:hover{
     background-color: rgba(134, 134, 134, 0.438);
-    border-top: 1px solid black;
     color: white;
 }
 ul li {
-
+    
     display: inline-block;
 
 }
@@ -190,7 +189,7 @@ ol li{
     /*list-style: decimal;
     list-style-position: inside;*/      
 }
-ol{
+ol{ 
     padding-inline-start: 5px;
 
 }

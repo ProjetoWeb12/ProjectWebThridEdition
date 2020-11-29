@@ -22,7 +22,9 @@
     filter: brightness(100%);
     color: rgb(113, 209, 209);
 }
-
+#dark:checked~.box ul#menu2{
+    background: rgb(82, 82, 82);
+}
 #dark:checked ~.box .temaDark{
     background-color: rgb(224, 224, 224);
     color:black
