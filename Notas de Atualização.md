@@ -1,22 +1,3 @@
-Quarta entrega:
+Quinta Entrega:
 
-    Ewerton : 
-	Atualização no header e footer; 
-	background-image no body
-	nova pagina de produtos 
-        tabelas adicionadas na pagina produtos
-        form adicionados na pagina produtos
-    iframes adicionados na pagina principal 
-
-
-    Jaqueline -> adicionando tabela com mesclagem de colunas e linhas "zebradas"			
-
-		adicionado tabelas
-		adicionados form
-		
-    Rute->
-	Atualização no header e footer;
-	Adicionadas tabelas no arquivo projota e legião urbana, como título a tabela, cabeçalho das colunas e mesclagem de linhas e colunas.
-	Background-image no body.
-	
-    Doug -> Criação da página about_us.html e conserto dos botões do index.html para não abrir as páginas em outras abas.
+	douglas -> desenvolvimento da responsividade das páginas index (localizado, nas ultimas linhas, em /files/doug/css/style_index.css), the beatles(localizado, nas ultimas linhas, em /files/doug/css/beatles.css), mumford and sons (localizado, nas ultimas linhas, em /files/doug/css/mumford.css) e a criação do script.js para a página quiz.
