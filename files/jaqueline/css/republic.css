@@ -174,3 +174,68 @@ tbody > tr:nth-child(even){
 tbody > tr:nth-child(odd){
 	background-color: lightslategray;
 }
+/* Celular*/
+@media screen and (min-width:360px) and (max-width:767px){
+	body{
+		background-color: white;
+	}
+	.barra-lateral{
+		display: none;
+	}
+	.Fotos, .Fotos:before{
+		width: 100%;
+	}
+	table{
+		width: 350px;
+		height: 100px;
+	}
+	.inframe-borda{
+		width: 350px;
+		height: 300px;
+		border-radius: none;
+	}
+	
+	.Menu{
+		border-radius: 10px;
+		width: 100%;
+		height: 50px;
+	}
+	.Menu .estilo{
+		color: #444;
+	}
+		
+}
+/* celular*/
+@media screen and (min-width: 500px) and (max-width: 767px){
+	table{
+		width: 450px ;
+	}
+	.inframe-borda{
+		width: 450px;
+	}
+}
+
+
+/* tablets*/
+@media screen and (min-width:768px) and (max-width:992px){
+	table{
+		width: 445px;
+	}
+	.inframe-borda{
+		width: 440px;
+	}	
+}
+/* computador*/
+
+@media screen and (min-width:992px) and (max-width: 1200px){
+	table{
+		width: 580px;
+	}
+	
+	.inframe-borda{
+		width: 570px;
+	}
+	
+
+
+}

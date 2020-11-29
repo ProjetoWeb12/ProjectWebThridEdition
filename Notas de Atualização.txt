@@ -55,3 +55,9 @@ Quarta entrega:
 		adcionados form
 
     Jaqueline -> adicionando tabela com mesclagem de colunas e linhas "zebradas"			
+
+
+
+Quinto envio:
+
+jaqueline -> adicionando media queries. Adaptando site para computador, celular e tablet. As medias podem ser encontradas em republic.css, logo após as configurações de estilo geral da página.	
