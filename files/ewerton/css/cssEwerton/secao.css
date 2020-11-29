@@ -1,28 +1,39 @@
+/*estilo para celulares=====================*/
+
+
+/*Estilo para tablets========================*/
+
+
+
+/*Estilo para impressoras=====================*/
+
+
+
 
 .historia{
-    margin-top: 50px;
+    margin-top: 75px;
     height: auto;
     width: 740px;
     background-size:cover ;
-    background: rgb(227, 227, 243);
-    float: left;
+    background: rgb(255, 255, 255);
     border-top: 2px solid rgba(189, 189, 189, 0.671);
     text-align: justify;
     letter-spacing: 1px;
     box-shadow: 0px 0px 5px rgb(124, 124, 124);
     margin-bottom:10px;
+    float: left;
     
 
 }
 .titulisOfi{
     font-size: 30px;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid  rgb(121, 26, 26);;
     color: rgb(255, 255, 255);
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 6px;
     font-family: 'Syne Mono', monospace;
-    background-color: rgba(71, 71, 71, 0.123);
+    background-color: rgba(194, 194, 194, 0.514);
 }
 /*
 .secao:nth-child(1){
@@ -50,7 +61,7 @@ section#Secao1{
     /*Gospel Collection*/
     background-image: url(../../img/EwertonIMG/img6.jpg);
     width: 100%;
-    margin-top: 50px;
+    margin-top: 77px;
 }
 section#Secao2{
     /*Historias e Bicicletas*/
@@ -93,9 +104,9 @@ section p {
     float: left;
     width: 740px;
     height: auto;
-    background-color: rgb(201, 201, 248);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
-    border-top: 3px solid rgb(143, 136, 238);
+    border-top: 3px solid  rgb(121, 26, 26);;
 }
 
 
@@ -117,7 +128,7 @@ section p {
 }
 .prod form{
     background-image: url(../../img/EwertonIMG/Nubank.png);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     top: 0px;
    
 }
@@ -143,7 +154,12 @@ input{
     border: 1px solid blue;
     
 }
+.preco{
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
 
+}
 .imgPrdot{
     max-width: 220px;
     max-height: 220px;
@@ -152,7 +168,16 @@ input{
     margin: 10px 0px 10px 5px;
     border-radius: 5%;
     border: 3px solid black;
+    transition: all 0.5s;
+  
 }
+.imgPrdot:hover{
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+
+}
+
+
 #btnProd:checked~.imgPrdot{
     border: 3px solid rgb(255, 255, 255);
 }

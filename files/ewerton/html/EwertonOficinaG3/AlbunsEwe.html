@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../img/EwertonIMG/OficinaG3.jpg" type="image/x-icon">
 
+    <link rel="stylesheet" href="../../css/cssEwerton/MediaQueries.css">
     <link rel="stylesheet" href="../../css/cssEwerton/TemaEscuro.css">
     <link rel="stylesheet" href="../../css/cssEwerton/StyleEwerton.css" >
     <link rel="stylesheet" href="../../css//cssEwerton/reset.css">
@@ -19,6 +20,7 @@
     <title>Albuns</title>
 
     <script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
+   
  
 </head>
 <body>
@@ -30,23 +32,31 @@
             <header id="Topo">   
                      <h1  class="tituloTopo"> <img class="imgTopo" src="../../img/EwertonIMG/OficinaG3.jpg" alt=""> Albuns <h2 class="hdaEstilo">HdA Productions</h2></h1>
 
-                        <nav> 
-                            <ul class="menuFixado">
-                                <li class="menu"><a class="ancora  " href="OficinaG3.html">Historia</a></li>
-                                <li class="menu"><a class="ancora " href="AlbunsEwe.html">Albuns</a></li>
-                                <li class="menu"><a class="ancora" href="Produtos.html">Produtos</a></li>
-                                <li class="menu"><a class="ancora " href="../../../../index.html">Volta</a></li>
-                                <li class="menu"><a class="ancora " href="#">MenuAlbuns</a>
-                                    <ul class="meunAlbuns">
-                                        <li class=" menu"><a class="AncoraAlbuns " href="#GospelCollection">Gospel Collection</a></li>
-                                        <li class=" menu"><a class="AncoraAlbuns " href="#historiasDeBicicletas">Historias de Bicicletas</a></li>
-                                        <li class=" menu"><a class="AncoraAlbuns " href="#DvdAcustico">Dvd Acustico</a></li>
-                                        <li class=" menu"><a class="AncoraAlbuns " href="#OTempo">O Tempo</a></li>
-                                        <li class="menu"><a class="AncoraAlbuns" href="#ddg">DDG</a></li>
+                     <div id="">
+                      
+                            
+                            <li class="menu"><a  id="menu1"class="ancora AmdqMenu dx">Menu</a>
+                                     
+                                    <ul id="menu2" class="menuFixado">
+                                
+                                        <li><a class="AncoraAlbuns" href="OficinaG3.html">Historia</a></li>
+                                        <li><a class="AncoraAlbuns" href="AlbunsEwe.html">Albuns</a></li>
+                                        <li><a class="AncoraAlbuns" href="Produtos.html">Produtos</a></li>
+                                        <li><a class="AncoraAlbuns" href="../../../../index.html">Volta</a></li>
+                                            <li class="mnAlb"><a class="AncoraAlbuns">MenuAlbuns</a>
+                                                <ul class="meunAlbuns">
+                                                    <li><a class="AncoraAlbuns " href="#GospelCollection">Gospel Collection</a></li>
+                                                    <li><a class="AncoraAlbuns " href="#historiasDeBicicletas">Historias de Bicicletas</a></li>
+                                                    <li><a class="AncoraAlbuns " href="#DvdAcustico">Dvd Acustico</a></li>
+                                                    <li><a class="AncoraAlbuns " href="#OTempo">O Tempo</a></li>
+                                                    <li><a class="AncoraAlbuns" href="#ddg">DDG</a></li>
+                                                </ul>
+                                            </li>
+                                            <label class="textDark temaDark" for="dark">Tema Dark</label>  
+                                
                                     </ul>
                                 </li>
-                                <label class="textDark temaDark" for="dark">Tema Dark</label>  
-                            </ul>
+                             
                         </nav>            
 
                 </header>     
@@ -68,6 +78,7 @@
                 </aside>--> 
                 
                 <div class="ivlp">
+                <scroll-container>
                     <section id="Secao1" class="secao">
                         <h3 id="GospelCollection"  class="titulisOfi"> Gospel Collection</h3>
                         
@@ -109,6 +120,7 @@
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </section>
                     <!--Problema na estilização da classe fixadoBarraLateral-->
+                </scroll-container>
                 </div>
               
             

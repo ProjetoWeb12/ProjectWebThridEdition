@@ -1,3 +1,13 @@
+/*estilo para celulares=====================*/
+
+
+/*Estilo para tablets========================*/
+
+
+
+/*Estilo para impressoras=====================*/
+
+
 .invelope{
     
     margin: auto;
@@ -6,36 +16,54 @@
     
    
 }
+@media (min-width: 560px) and (max-width: 700px){
+    div.invelope{
+        width: 700px;
+        margin: auto;
+    }
+}
 .imgAnimada{
     max-width: 150px;
     max-height: 150px;
     width: auto;
     height: auto;
 }
+
+
 body{
     
-    width:  100%;
-    height: 100%;
+   
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    background-color: black;
     background-image: url(../../img/EwertonIMG/guitarra.jpg);
     
+}
+@media (min-width: 560px) and (max-width: 700px){
+
+    body{
+        width: 700px;
+        margin: auto;
+       background-image: url("../../img/EwertonIMG/img750px.jpg");
+       
+        background-color: rgb(75, 28, 28);
+        background-attachment: fixed;
+        background-size: cover;
+		background-repeat: no-repeat;
+        
+    }
 }
 .hdaEstilo{
     font-family: 'Syne Mono'; 
     color: rgb(255, 255, 255); 
     font-size: 20px;   
-    z-index: 4;
-    position: fixed;
-    left: 86%;
-    top: 12px;
-    background-color: rgba(0, 0, 0, 0.342);
+    z-index: 1;
+    position: fixed; 
+    background: rgb(121, 26, 26);
     padding: 5px;
     transition: all 0.8s ;
-}
-.hdaEstilo:hover{
-    color: rgba(255, 255, 0, 0.589);
-    box-shadow: 0px 0px 20px rgba(255, 255, 0, 0.692);
-
+    width:100%;
 }
 .invelopeAlbuns{
     width: 100%;
@@ -44,18 +72,24 @@ body{
 }
 
 .tituloTopo{
+    margin-top: 28px;
     width: 100%;
     font-size: 40px;
     font-family: 'Syne Mono';
-    background: rgba(115, 115, 241, 0.432);
-    -webkit-filter: drop-shadow(0px 0px 5px black);
-    filter: drop-shadow(0px 0px 5px black);
+    background: rgb(121, 26, 26);
     letter-spacing: 3px;
     height: auto;
     color: rgb(0, 0, 0);
     padding: 0px;
     position: fixed;
     z-index:1;/*para sobrepor o titulo do resto da pagina*/
+}
+.iframeTopo{
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    
+
 }
 .imgTopo{
     float: left;

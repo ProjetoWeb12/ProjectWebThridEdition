@@ -3,18 +3,38 @@
     <head>
         <meta charset="UTF-8">
 
-        <link rel="stylesheet" href="css/estilo-legiao.css">
+        <link rel="stylesheet" href="../rute/css/estilo-legiao.css">
 
         <meta name="viewport" content="widht=device-widht, intial-scale=1.0">
 
-        <link rel="shortcut icon" href="img/favicon-legiao.ico">
+        <link rel="shortcut icon" href="img-legiao/favicon-legiao.ico">
 
         <link class="TelaPrincipal" rel="stylesheet" href="img/Tela-legiao.jpg">
-  
 
-        <title>Legião Urbana</title>
+        <link rel="stylesheet" href="small-screen.css" media="screen and(max-widht: 600px)">
+        <link rel="stylesheet" href="phone.css" media="screen and (min-widht: 600px) and (min-widht: 768px)">
+        <link rel="stylesheet" href="tablet.css" media="screen and (min-widht: 768px) and (max-widht: 992px)">
+        <link rel="stylesheet" href="pc.css" media="screen and (min-widht: 992px) and (max-widht: 1200px)">
+        <link rel="stylesheet" href="tv.css" media="screen and (max-widht: 1200px)">
+        
+
+        <script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		footer{float: left;margin-top: 10px;padding-top: 10px;width: 100%;background-color: #000000;color: white;text-align: center;font-size: 15px;}
+		footer div{margin-bottom: 10px;font-size: 30px;}
+		footer div a{color: #fff;}
+		footer div i{transition: all 1s ease;}
+		footer div i:hover{box-shadow: 2px 2px 20px #00ace6;color:#00ace6;}
+	</style>
+  
+  <title>Legião Urbana</title>
      </head>
      <body>
+      <div style="background-color: #000;color: #fff; width: 100%; height:30px;">
+        <h2>HdA Productions</h2>
+      </div>
+      <br><br>
+    
          <header>
               <a class="voltando" href="../../index.html">Voltar</a>
               <h1>Legião Urbana</h1>
@@ -23,6 +43,7 @@
              <div class="tela"><a href="#Biografia">Biografia</a></div>
              <div class="tela"><a href="#Músicas">Músicas</a></div>
              <div class="tela"><a href="#Álbuns">Álbuns</a></div>
+             <div class="tela"><a href="#Vendas">Vendas</a></div>
             </header>
            
              <header>
@@ -91,17 +112,74 @@
 
                         </div>
              </section>
+             <section>
+                <br><br><br>
+                <table>
+                  <caption id="Vendas">
+                    Lista de Álbuns, com vendas selecionadas
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Álbum</th>
+                      <th scope="col">Detalhes</th>
+                      <th colspan="2">Vendas e Prêmios</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Dois</td>
+                      <td>
+                        Lançamento: Julho de 1986<br>
+                        Formatos: LP, K7, CD<br>
+                        Gravadora: EMI
+                      </td>
+                      <td>900.000</td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td>As Quatro Estações</td>
+                      <td>
+                        Lançamento: 26 de outubro de 1989<br>
+                        Formatos: CD, LP, K7<br>
+                        Gravadora: EMI
+                      </td>
+                      <td>1.900.000</td>
+                      <td>Diamante</td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td>Acústico MTV</td>
+                      <td>
+                        Lançamento: 27 de outubro de 1999<br>
+                        Formatos: CD, VHS, DVD<br>
+                        Gravadora: EMI
+                      </td>
+                      <td>500.000</td>
+                      <td>2X Plantina</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                    <th scope="row" colspan="2">Total de Discos Vendidos</th>
+                    <td colspan="2">3.300.000</td>
+                  </tr>
+                  </tfoot>
+                </table>
+             </section>
             </main>
             <div class="Rodapé">
                 <br><br><br>
-              <footer>
-                Todos os Direitos Reservados<br>©HdA Productions 2020
-                <nav>
-                  <a href="https://www.facebook.com/">Facebook</a>
-                  <a href="https://www.instagram.com/">Instagram</a>
-                  <a href="https://twitter.com/">Twitter</a>
-                </nav>
-          </footer>
+                <footer>
+                  <p>Todos os Direitos Reservados &copy;HdA Productions 2020</p>
+                  <div>
+                    <a href="https://github.com/ProjetoWeb12"><i class="fab fa-github-square"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                  </div>
+                </footer>
               </div>
            
               

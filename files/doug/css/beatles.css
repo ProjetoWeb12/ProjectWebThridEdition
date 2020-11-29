@@ -123,3 +123,29 @@ article h1{
 	font-family: 'Bootle';
 	src: url('../BOOTLE__.ttf');
 }
+
+
+
+@media (max-width: 600px){
+	.albuns-link td{
+		font-size: 2.2vh;
+	}
+
+	.parallax{
+		height: 300px;
+	}
+
+	article {
+		margin-top: 20px;
+	}
+	article p{
+		font-size: 12px;
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	article h1{
+		margin-left: 5%;
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+}

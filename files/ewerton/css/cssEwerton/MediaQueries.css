@@ -1,0 +1,166 @@
+@media (min-width: 560px) and (max-width: 700px){
+
+    body{
+        width: 700px;
+        margin: auto;
+        /*
+        background-image: url("../../img/EwertonIMG/imgMdq.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+		background-repeat: no-repeat;
+        */
+    }
+    body footer{
+        width: 700px;
+    }
+
+    section.historia{
+        margin-left:40px;
+        
+        width: 300px;
+    }
+    section.hstp{
+        width: 100%;
+        margin: 0px;
+        margin-top: 60px;
+    }
+    section.produtosAlb{
+        width: 100%;
+    }
+    section scroll-container{
+        display: inline-block;
+        overflow-y: scroll;
+        
+    }
+    section label{
+        color: black;
+    }
+    div.prod{
+        width: 480px;
+        height: 207px;
+    }
+    
+    img.imgPrdot{
+        width: 190px;
+        margin: 0px;
+    }
+    h1.tituloTopo{
+        width: 700px;
+
+    }
+    h2.hdaEstilo{
+        width: 690px;
+    }
+    a.AmdqMenu{
+        z-index: 100;
+        position: fixed;
+        left: 307px;
+        top:40px;
+    }
+
+    a#menu1{
+        display: block;
+        
+    }
+    a#menuBr{
+        top: 15px;
+        display: block;
+    }
+
+    ul#menu2 a#menu1{
+        position: relative;
+        
+    }
+    
+    ul#menu2{
+        position: absolute;
+        
+        display: none;
+        height: auto;
+        background: rgb(121, 26, 26);
+        padding: 6px;
+        border-bottom: 2px solid black;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+        
+    }
+    ul#mn2{
+        left: 40px;
+    }
+    a.AncoraAlbuns{
+        width: 90px;
+        margin: auto;
+        
+    }
+    a.dx{
+    left: 74%;
+    }
+    
+    section iframe{
+        width: 330px;
+    }
+    li.menu:hover ul#menu2{
+        display: block;
+    }
+    
+    
+  
+    /*
+    #idmenu .menuFixado{
+        display: none;
+        position: absolute;
+
+    }
+    a.AmdqMenu:hover #idmenu.menuFixado{
+        display: block;
+    }*/
+   
+    /*
+    #idmenu{
+       display: none;
+    }
+
+    #idbtnMdQ:hover #idmenu{
+        display: block;
+    }*/
+
+    li.menu{
+        margin-top: 13px;
+        
+      
+    }
+    aside.barraLateral{
+       
+        
+        position: relative;
+          
+    }
+   
+
+    
+    
+ /*  
+    ul.menuFixado{
+    
+        position: fixed;
+        top: 20px;
+        left: 190px;
+        z-index:2;
+
+        text-align: right;
+        background-color: blue;
+        width: 110px;
+        height: auto;
+        display: inline-block;
+        
+        
+       Classe ligada ao menu da pagina principal
+    }*/
+    a.volta{
+        left: 60px;
+    }
+    
+   
+    
+    
+
+}

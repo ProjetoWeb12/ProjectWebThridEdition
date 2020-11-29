@@ -22,7 +22,9 @@
     filter: brightness(100%);
     color: rgb(113, 209, 209);
 }
-
+#dark:checked~.box ul#menu2{
+    background: rgb(82, 82, 82);
+}
 #dark:checked ~.box .temaDark{
     background-color: rgb(224, 224, 224);
     color:black
@@ -30,6 +32,12 @@
 #dark:checked ~.box .temaDark:hover{
    
     color:rgb(185, 185, 185)
+}
+#dark:checked~.box body{
+    background-color: black;
+}
+#dark:checked~.box .hdaEstilo{
+    background-color: rgba(0, 0, 0, 0.671);
 }
 #dark{
     display: none;
@@ -57,13 +65,14 @@
     
 
 }
-#dark:checked ~.box h1{
+#dark:checked ~.box .tituloTopo{
     background: rgb(58, 58, 58);
     
     color: rgb(187, 187, 187);
     
 
-} 
+}
+
 #dark:checked ~.box .historia{
     background: rgb(20, 20, 20);
    
@@ -94,6 +103,7 @@
 #dark:checked~.box caption{
     color: white;
     background-color: rgb(124, 124, 124);
+    border-top: 1px solid black;
 
 }
 #dark:checked~.box thead{

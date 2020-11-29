@@ -1,14 +1,52 @@
 @charset "UTF-8";
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width:1000px;
     margin: auto; 
-    background-image: url("../img/TelaPrincipal-projota.png");  
+    background-image: url('../img/TelaPrincipal-projota.png');  
     background-repeat: no-repeat;
     background-image: center top;
     background-size: cover;
     background-attachment: fixed;
 
+}
+@media screen and(max-widht: 600px){
+    body{
+        float: left;
+        width: 25%;
+        }
+        section{
+            margin-left: 25%;
+        }
+}
+@media screen and (min-widht: 600px) and (max-widht: 768px){
+
+body{
+    float: left;
+    width: 25%;
+    }
+    section{
+        margin-left: 25%;
+    }
+}
+@media screen and (min-widht: 768px) and (max-widht: 992px){
+    body{
+        float: left;
+        width: 25%;
+        }
+        section{
+            margin-left: 25%;
+        }
+}
+@media screen and (min-widht: 992px) and (max-widht: 1200px){
+    body{
+        float: left;
+        width: 25%;
+        }
+        section{
+            margin-left: 25%;
+        }
 }
 a.voltando{
     font-style: italic;
@@ -27,7 +65,7 @@ h1{
 }
 div.tela{
     font-family:'Steve Mattesson', 'sans-serif'; 
-    width: 315px;
+    width: 225px;
     display: inline-block;
     font-size: 2.5em;
     margin-left: 15px;
@@ -109,10 +147,50 @@ div.album{
     margin-bottom: 40px;
     font-size: 1.2em;
 }
+table{
+    width: 1000px;
+    border-collapse: separate;
+    text-align: center;
+    font-family: 'Bree Serif';
+}
+td,th{
+    border: 1px solid black;
+}
+caption{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    background-color:#8c8c8c;
+    border-radius: 10px 0px;
+    color: black;
+    text-shadow: 1px 1px 0px white;
+    box-shadow: 2px 2px 1px black;
+}
+thead{
+    background-color:#595959;
+    color: black;
+    font-size: 1.2em;
+}
+tbody > tr:nth-child(even){
+    background-color: gray;
+    color: black;
+}
+tbody > tr:nth-child(odd){
+    background-color:gray;
+    color: black;
+}
+tfoot{
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    background-color: #595959;
+}
 footer{
     text-align: center;
-     font-size: 1em;
-    color: white;
+    font-size: 1em;
+    color: gray;
     clear: both;
-    border-top: 1px solid gray;   
+    border-top: 1px solid gray; 
 }
