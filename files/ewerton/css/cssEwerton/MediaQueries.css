@@ -1,4 +1,4 @@
-@media (min-width: 360px) and (max-width: 460px){
+@media (min-width: 360px) and (max-width: 700px){
 
     body{
         width: 700px;
@@ -15,9 +15,9 @@
     }
 
     section.historia{
-        margin-left:40px;
         
-        width: 300px;
+       width: 300px;
+        
     }
     section.hstp{
         width: 100%;
@@ -73,7 +73,7 @@
     }
     
     ul#menu2{
-        position: absolute;
+        position: fixed;
         
         display: none;
         height: auto;
