@@ -1,9 +1,2 @@
-Quinto envio:
-
-jaqueline -> adicionando media queries. Adaptando site para computador, celular e tablet. As medias podem ser encontradas em republic.css, logo após as configurações de estilo geral da página.
-
-Ewerton -> implementado MediaQuerie.css para adaptar para celulares e tabletes, atualização visual no headder e section
-
-douglas -> desenvolvimento da responsividade das páginas index (localizado, nas ultimas linhas, em /files/doug/css/style_index.css), the beatles(localizado, nas ultimas linhas, em /files/doug/css/beatles.css), mumford and sons (localizado, nas ultimas linhas, em /files/doug/css/mumford.css), a criação do script.js para a página quiz e suas respectivas páginas de resultado do quiz, pag1 a pag5 (em /files/perguntas/membros/ ).
-
-paulo ->
+Sexto Envio:
+  douglas -> Criação do formulário join_us.html (/files/doug/join_us.html) pois a HdA está recrutando novos membros, ela está toda erificada com js bruto (/files/doug/join_us.js) e possui uma animação de trocar a cor do body ao passar o mouse em cima do botõa de enviar o formulário.
