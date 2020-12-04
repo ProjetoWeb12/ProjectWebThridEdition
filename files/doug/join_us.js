@@ -5,6 +5,8 @@ const idade = document.getElementById('idade');
 const sexo = document.getElementById('sexo');
 const bio = document.getElementById('bio');
 const last = document.getElementById('last');
+const button = document.getElementById('button');
+const body = document.getElementById('body');
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -84,4 +86,10 @@ function isEmail(email) {
 
 function isGender(sexo) {
 	return /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/.test(sexo);
+}
+
+button.addEventListener('mousemove', colored);
+
+function colored(e){
+	document.body.style.backgroundColor = "rgb("+e.offsetX+", "+e.offsetY+", 80)";
 }
