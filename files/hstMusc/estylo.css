@@ -22,7 +22,10 @@ ol, ul,li {
 a{
     text-decoration: none;
     color: var(--cor5);
+    
 }
+
+
 a:hover{
     text-decoration: underline;
 }
