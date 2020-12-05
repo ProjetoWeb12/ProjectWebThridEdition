@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+ol, ul,li {
+	list-style: none;
+}
+:root{
+    --cor0: #F2F2F2;
+    --cor1: #BDBDBD;
+    --cor2 :#848484;
+    --cor3: #585858;
+    --cor4: #1C1C1C;
+    --cor5: #151515;
+    --font0: 'Padauk', sans-serif;
+    --font1:'Texturina', serif;
+    --font2:'Mukta', sans-serif;
+   
+
+}
+a{
+    text-decoration: none;
+    color: var(--cor5);
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+body{
+    background-color:#F2F2F2;
+    font-family: var(--font2);
+}
+body aside{
+    width: 1000px;
+   
+    margin-left: 280px;
+
+}
+aside p {
+    color: var(--cor3);
+}
+.enfases{
+    border-left: 1px solid var(--cor2);
+    padding-left: 15px;
+
+}
+header h1{
+    background-color:var(--cor3);
+    padding-left: 30px;
+
+}
+.as1{
+   padding-top: 60px;
+}
+header{
+    background-color: var(--cor2);
+    position: fixed;
+    width: 100%;
+
+}
+ul li {
+    display: inline-block;
+
+}
+ul li a{
+  
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 1s all ease-in-out;
+}
+ul li a:hover{
+    background-color: var(--cor1);
+    text-decoration: none;
+}
+aside h2{
+    font-size: 30px;
+
+}
+
+
+aside img{
+    max-width: 500px;
+    max-height: 400px;
+    width: auto;
+    height:auto;
+    margin-left: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#nome_musica{
+    font-size: 20px;
+
+}
+
+.btnMs{
+    background-color: var(--cor3);
+    border-radius: 2px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 1s all ease;
+}
+.btnMs:hover{
+    color: white;
+
+}
+button{
+    outline: none;
+    border: none;
+
+}
+
+.barraMusica{
+    float: left;
+    width: 200px;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+ol h3{
+    font-size: 40px;
+}
+ol p{
+    font-size: 20px;
+}
+
+.volta{
+    color: white;
+    background-color: var(--cor5);
+    transition: 1s all ease;
+    
+
+}
+footer{
+    clear: both; 
+    padding-top: 20px;
+    padding-bottom: 22px;
+    width: 100%;
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    height: 60px;
+  
+}
+footer div{ 
+    font-size: 30px;
+}
+footer div a{
+    color: #fff;
+}
+footer div i{
+    transition: all 1s ease;
+}
+footer div i:hover{
+    box-shadow: 2px 2px 20px #00ace6;
+    color:#00ace6;
+
+}
+
