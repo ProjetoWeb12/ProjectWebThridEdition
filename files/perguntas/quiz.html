@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" crossorigin="anonymous"></script>
+    <title>Perguntas</title>
+</head>
+<body id="body">
+    
+    <aside>
+        <form action="#">
+            <p>
+                
+                <legend>1 - Por metáfora, qual é seu estilo de combate para encarar um situação problema fictícia?</legend>
+                <p>
+                    <input type="radio"name="pergunta1" id="pgt1a" required>
+                    <label for="pgt1a">ataque de frente.</label>
+                </p>
+                <p>
+                    <input type="radio" name="pergunta1" id="pgt1b" required>
+                    <label for="pgt1b">à distância.</label>
+                </p>
+                <p>
+                    <input type="radio" name="pergunta1" id="pgt1c" required>
+                    <label for="pgt1c">defesa.</label>
+                </p>
+                <p>
+                    <input type="radio" name="pergunta1" id="pgt1d" required>
+                    <label for="pgt1d">suporte.</label>
+                </p>
+                <p>
+                    <input type="radio" name="pergunta1" id="pgt1e" required>
+                    <label for="pgt1e">Recua e se prepara primeiramente.</label>
+                </p>
+          </p>
+       
+            <p>
+                <legend>2 - Qual bebida predileta entre as opções abaixo?</legend>
+
+                    <select name="pergunta2" id="pgt2" required>
+                        <option value="">Escolha su bebida</option>
+                            <optgroup label="Bebidas">
+                                <option value="cf">Café</option>
+                                <option value="Engt">Energético</option>
+                                <option value="ch">Chá</option>
+                                <option value="rfg">Refrigerante</option>
+                                <option value="ag">Água</option>
+                            </optgroup>
+
+                    </select>
+            </p>
+                
+                <p>
+                    <label for="pgt3">3 - Em sua opinião, qual das opções abaixo é o melhor sistema operacional? (Doble-cick para ver as opções)</label> 
+                    <br>
+                        <input type="text" name="pergunta3" id="pgt3" list="listpgt3" required>
+                            <datalist id="listpgt3">
+
+                                <optgroup label="pgt3a">
+                                    <option id="pgt3a" value="Linux Mint"></option>
+                                </optgroup>
+
+                                <optgroup label="pgt3b">
+                                    <option id="pgt3b" value="Ubuntu"></option>
+                                </optgroup>
+
+                                <optgroup label="pgt3c">
+                                    <option id="pgt3c" value="Kali Linux"></option>
+                                </optgroup>
+
+                                <optgroup label="pgt3d">
+                                    <option  id="pgt3d" value="Debian"></option>
+                                </optgroup>
+
+                                <optgroup label="pgt3e"> 
+                                    <option id="pgt3e" value="Windows"></option>
+                                </optgroup>
+
+                            </datalist>
+
+                            </optgroup>
+                </p>
+            <label for="pgt4">4 - Honestamente, qual seu nível de sociabilidade?</label>
+                        <input type="range" name="soci" id="sociid" min="1" max="5" value="0">
+                        <!--20% = a; 40% = b; 60% = c 80% = d; 100% = e-->
+
+                <br>   
+            <p>
+                <legend>5 - Dentre as opçõe abaixo, qual é o melhor passatempo?(pode escolher mais de uma opção)</legend>
+                <p>
+                    <input id="pgt5a" type="checkbox" name="pgt5" >
+                    <label for="pgt5a">Assistir novela mexicana</label>
+                </p>            
+                <p>
+                    <input type="checkbox" id="pgt5b" name="pgt5" >
+                    <label for="pgt5b">Jogar xadrez</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="pgt5c" name="pgt5" >
+                    <label for="pgt5c">Aprender mais sobre o comunismo</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="pgt5d" name="pgt5" >
+                    <label for="pgt5d">Dormir</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="pgt5e" name="pgt5" >
+                    <label for="pgt5e">Pesquisar imagens de gatinhos fofos</label>
+                </p>
+            </p>
+            <p>
+                <legend>6 - Qual seria a refeição que mais te atrai?</legend>
+                <p>
+                    <input type="radio" name="pgt6" id="pgt6a" required>
+                    <label for="pgt6a">Lasanha</label>
+                </p>
+                <p>
+                    <input type="radio" name="pgt6" id="pgt6b" required>
+                    <label for="pgt6b">Bolo</label>
+                </p>
+                <p>
+                    <input type="radio" name="pgt6" id="pgt6c" required>
+                    <label for="pgta6c">Pudim</label>
+
+                </p>
+                <p>
+                    <input type="radio" name="pgt6" id="pgt6d" required>
+                    <label for="pgt6c">Sorvete</label>
+                </p>
+                <p>
+                    <input type="radio" name="pgt6" id="pgt6e" required>
+                    <label for="pgt6">Churrasco</label>
+                </p>
+               
+            </p>
+            <p>
+            <legend>7 - Se pudesse escolher entre esses desejos, qual seria o melhor?</legend>
+                <p>
+                    <input type="radio" name="pgt7" id="pgt7a" required>
+                    <label for="pgt7a">Restaurar o comunismo</label>
+                </p>
+                <p>
+                    <input type="radio" name="pgt7" id="pgt7b" required>
+                    <label for="pgt7b">Imortalidade</label>
+                </p>
+                <p>
+                    <input type="radio" name="pgt7" id="pgt7c" required>
+                    <label for="pgt7c">Todo o conhecimento do mundo</label>
+                </p>
+                <p>
+                    <input type="radio" name="pgt7" id="pgt7d" required>
+                    <label for="pgt7d">Dinheiro infinito</label >
+                </p>
+                <p>
+                    <input type="radio" name="pgt7" id="pgt7e" required>
+                    <label for="pgt7e">Teletransporte</label>
+                </p>
+            </p>
+            <div class="inf">
+                <p>
+                    <h2>informações opcionias</h2>
+                    <label for="opn">Nos de uma Opnião sobre essas perguntas</label><br>
+                    <textarea name="desc" id="opn" cols="30" rows="10"></textarea>
+
+                </p>
+                <p>
+                    
+                    <label for="idata">Data de nascimento:</label>
+                    <input type="date" name="date" id="idata">
+                </p>
+                <p>
+                    <label for="itel">Telefone para contato:</label>
+                    <input type="tel" name="tel" id="itel" pattern="\([0-9]{2}\)([\s] [0-9]{4,6}-[0-9]{4})" placeholder="(XX) XXXX-XXXX">
+
+                </p>
+            </div>    
+                <p>
+                <button type="submit" onclick="quiz();" id="button">Calcular</button>
+                    <a href="../../index.html">Volta</a>
+                </p>
+            
+        </form>
+        <br>
+
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>

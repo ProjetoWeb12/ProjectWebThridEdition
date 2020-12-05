@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Texturina:wght@100&display=swap" rel="stylesheet">
+    
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    
+    <script  type="text/javascript" src="js/js.js"></script>
+    <link rel="stylesheet" href="../estylo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <!--MODELO PRINCIPAL-->
+
+    <ol>
+        <h3>Kiss</h3>
+        
+        <div  id="tocando" style="border: 0px;color: var(--cor4);">
+            <div id="nome_musica"></div>
+            <li>
+    
+                <button  id="audioPlay" onclick="play1()" style="display: none;"><span class="glyphicon glyphicon-play btnMs"></span></button>
+                <button  id="pause2" onclick="pause1()" style="display: none;" > <span class="glyphicon glyphicon-pause btnMs"></span></button>
+                <button  onclick="stop()"><span class="glyphicon glyphicon-repeat btnMs"></span></button>
+                <button  onclick="aumentar()"> <span class="glyphicon glyphicon-volume-up btnMs"></span> </button>
+                <button  onclick="diminuir()"> <span class="glyphicon glyphicon-volume-down btnMs"></span> </button>
+                <button  onclick="proximo()">  <span class="glyphicon glyphicon-fast-forward btnMs"></span></button>
+    
+           </li>
+        </div>
+    </ol>
+    <audio preload="none" id="audioList"></audio> 
+
+
+    <script>
+   
+     
+
+    var i = 0;
+    var musica = [
+        {mp3:"../musica/Kis01. Strutter '78.mp3", titulo:"Strutter '78"},
+        {mp3:"../musica/Kis02. Do You Love Me-.mp3",titulo:" Do You Love Me?"},
+        {mp3:'../musica/Kis03. Hard Luck Woman.mp3',titulo:'Hard Luck Woman'},
+        {mp3:'../musica/Kis04. Calling Dr. Love.mp3',titulo:'Calling Dr. Love'},
+        {mp3:'../musica/Kis06. Love Gun.mp3',titulo:' Love Gun'}
+    ];
+        audio = document.getElementById('audioList');
+        
+        
+
+        var playBtn = document.getElementById('audioPlay')
+        var pausebtn = document.getElementById('pause2');
+        var tocando = document.getElementById('tocando');
+        function play1(){
+            
+            
+            audio.play();
+            tocando.style.border="1px solid rgb(0, 252, 34)"
+            tocando.style.transition="1s all"
+            
+            playBtn.style.display="none";
+            pausebtn.style.display = "inline-block";
+
+        //colocar um style pra saber quando ele tiver precionado 
+        };
+        function pause1(){
+            tocando.style.transition="1s all"
+            tocando.style.border="1px solid red"
+            audio.pause();
+            
+            playBtn.style.display = "inline-block";
+            
+            pausebtn.style.display = "none";
+            
+        };
+        function proximo(){
+
+            
+
+            if(audio.canPlayType("audio/mp3") !=''){
+                audio.src=musica[i].mp3;
+
+            }
+            else{
+                audio.src=musica[i].ogg;
+            }
+            document.getElementById('nome_musica').innerHTML=musica[i].titulo;
+            audio.play();
+            i++;
+            pausebtn.style.display = "inline-block";
+            if(i>=musica.length) i=0;
+
+            tocando.style.transition="1s all"
+            tocando.style.border="1px solid rgb(0, 252, 34)"
+            tocando.style.borderRadius="20px"
+            tocando.style.padding="5px"
+        }
+        function aumentar(){
+        if(audio.volume <1); audio.volume +=0.1;
+
+        }
+        function diminuir(){
+        if( audio.volume > 0)  audio.volume -= 0.1;
+        }
+       
+
+        function stop(){
+        audio.currentTime = 0;
+       
+    }
+    </script>
+</body>
+</html>
