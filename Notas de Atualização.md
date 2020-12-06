@@ -4,4 +4,6 @@ Sexto Envio:
   Ewerton -> Criação da pagina canto do conhecimento (file/hstMusc/canto.html), pagina e mostra um pouco da historia da musica e que tem implementações js no propio html, js foi feito para por uma playlist de musicas de cada banda 
   
   Jaqueline - adicionando Menu-sidebar animado com a  function OnClick que esconde e mostra conteúdo HTML.
-  
+ 
+  Rute -> Desenvolvimento de "animação" com javaScript nas páginas projota.html e legiao.html.
+     Animação sendo ela a de passar o mouse por cima das imagens dos álbuns e ela mostrar outras imagens e texto, (localizadas, script locaizado nas páginas: 35 a 67, e demais configurações nas páginas: 123, 124, 125, 133, 134, 135, 143, 144 e 145 do arquivo projota.html). Já no arquivo legiao.html(script pode ser localizado nas páginas: 32 a 63 e demais configurações nas páginas: 123, 124, 125, 132, 133, 134, 142 143 e 144). Atualização da tabela sobre os discos vendidos.
