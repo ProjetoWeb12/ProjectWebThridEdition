@@ -4,17 +4,20 @@
         <meta charset="UTF-8">
 
         <link rel="stylesheet" href="../rute/css/style_projota.css">
+        <link rel="stylesheet" href="estilo-tela.css">
+        <link rel="stylesheet" href="phone.css" media="screen and (min-widht: 600px) and (max-widht: 768px)">
+        <link rel="stylesheet" href="tablet.css" media="screen and (min-widht: 768px) and (max-widht: 992px)">
+        
 
         <meta name="viewport" content="widht=device-widht, intial-scale=1.0">
 
         <link rel="shortcut icon" href="projota.img/Iconshock-Dj-Headset.projota.ico">
 
         <link class="TelaPrincipal" rel="stylesheet" href="img/TelaPrincipal-projota.png">
+        <link rel="stylesheet" href="img/Principal-projota-cel.png">
+        <link rel="stylesheet" href="img/TelaPrincipal-projota-tablet.png">
 
-        <link rel="stylesheet" href="small-screen.css" media="screen and(max-widht: 600px)">
-        <link rel="stylesheet" href="phone.css" media="screen and (min-widht: 600px) and (max-widht: 768px)">
-        <link rel="stylesheet" href="tablet.css" media="screen and (min-widht: 768px) and (max-widht: 992px)">
-        <link rel="stylesheet" href="pc.css" media="screen and (min-widht: 992px) and (max-widht: 1200px)">
+        
 
         <script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
        
@@ -28,6 +31,40 @@
 	</style>
   
         <title>Projota</title>
+        <script href="projota.js"></script>
+        <script>
+          function setNewImage1(){
+           document.getElementById("img1").src="img/album4_projota.png";
+           document.getElementById("p1").innerHTML="Realizando sonhos";
+           document.getElementById("p2").innerHTML="2012"
+       }
+       function Image1() {
+           document.getElementById("img1").src="img/album1_projota.jpg"
+           document.getElementById("p1").innerHTML="3Fs";
+           document.getElementById("p2").innerHTML="2016";
+       }
+       function setNewImage2(){
+         document.getElementById("img2").src="img/album5_projota.jpg";
+           document.getElementById("p3").innerHTML="Tempestade Numa Gota D'Água";
+           document.getElementById("p4").innerHTML="2020";
+       }
+       function Image2(){
+          document.getElementById("img2").src="img/album2_projota.png";
+          document.getElementById("p3").innerHTML="A Milenar Arte de Meter o Louco";
+          document.getElementById("p4").innerHTML="2017";
+         }
+           
+           function setNewImagem3(){
+             document.getElementById("img3").src="img/album6_projota.jpg";
+             document.getElementById("p5").innerHTML="Projeção Pra Elas";
+             document.getElementById("p6").innerHTML="2011";
+          }
+       function Imagem3(){
+         document.getElementById("img3").src="img/album3_projota.jpg"
+           document.getElementById("p5").innerHTML="Tributo Aos Sonhadores";
+           document.getElementById("p6").innerHTML="2019";
+           }
+        </script>
 
       </head>
     <body>
@@ -75,6 +112,7 @@
        <p class="Musicas"><a href="https://youtu.be/nC_gY2uqXuw" target="_blank">10. Numa Esquina Do Universo</a></p>
       </nav>
  <br><br>
+
     <header>
       <h4 id="Álbuns">Álbuns</h4>
     </header>
@@ -82,30 +120,34 @@
     <section>
 
       <div class="album">
-       <img src="img/album1_projota.jpg" alt="Álbum1">
-       <p>3Fs</p>
-       <p>2016</p>
+       <img id="img1" onmouseover="setNewImage1()" onmouseout="Image1()" src="img/album1_projota.jpg" alt="Álbum1">
+       <p id="p1">3Fs</p>
+       <p id="p2">2016</p>
        <nav>
-       <a class="album1" href="https://www.youtube.com/playlist?list=PLhSlDiH-2rbvoHFIGeR4IA8TEvUhBqfdD" target="_blank">Assista a Playlist</a>
-      </nav>
+         <a href="https://www.youtube.com/playlist?list=PL_stmpr_eMj-RVUi7jo33qmyaHZmcuSeE" target="_blank">3Fs</a><br><br>
+         <a href="https://youtu.be/xlkqpqOVdG8" target="_blank">Realizando Sonhos</a>
+       </nav>
       </div>
+
       <div class="album">
-        <img src="img/album2_projota.png" alt="Álbum2">
-        <p>A Milenar Arte De Meter o Louco</p>
-        <p>2017</p>
+        <img id="img2" onmouseover="setNewImage2()" onmouseout="Image2()" src="img/album2_projota.png">
+        <p id="p3">A Milenar Arte De Meter o Louco</p>
+        <p id="p4">2017</p>
         <nav>
-        <a class="album2" href="https://www.youtube.com/playlist?list=PLix2JfcB_B0YMJY_d_1rxuiszJn_B2BXT" target="_blank">Assista a Playlist</a>
-      </nav>
+          <a href="https://www.youtube.com/playlist?list=PLix2JfcB_B0YMJY_d_1rxuiszJn_B2BXT" target="_blank">A Milenar Arte De Meter o Louco</a><br><br>
+          <a href="https://www.youtube.com/playlist?list=PL53Txkr80bMghFKZ6ALQfc-4B_KMZdLmU" target="_blank">Tempestade Numa Gota D'Água</a>
+         </nav>
       </div>
       
       <div class="album">
-        <img src="img/album3_projota.jpg" alt="Álbum3">
-        <p>Tributo Aos Sonhadores</p>
-        <p>2019</p>
+        <img id="img3" onmouseover="setNewImagem3()" onmouseout="Imagem3()" src="img/album3_projota.jpg">
+        <p id="p5">Tributo Aos Sonhadores</p>
+        <p id="p6">2019</p>
         <nav>
-        <a class="album3" href="https://www.youtube.com/playlist?list=PL4aIK-TTKhJja3D_pNNI-7OpeU8PZg2B1" target="_blank">Assista a Playlist</a>
+          <a href="https://www.youtube.com/playlist?list=PLlbIrsvbImJ5D-PiEL-McwackQEa8u_PD" target="_blank">Tributo aos Sonhadores</a><br><br>
+          <a href="https://www.youtube.com/playlist?list=PLD4720C148347A9DD" target="_blank">Projeção para Elas</a>
         </nav>
-          </div>
+      </div>
     </div>
   </section>
   <section>
@@ -156,10 +198,43 @@
           <td>Ouro</td>
         </tr>
       </tbody>
+      <tbody>
+        <tr>
+          <td>Realizando Sonhos</td>
+          <td>
+            Lançamento: 10 de abril de 2012<br>
+            Formatos: CD, download digital<br>
+            Gravadora: Independente
+          </td>
+          <td>13.000</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>Tempestade Numa Gota D'Água</td>
+          <td>
+            Lançamento: 22 de maio de 2020<br>
+            Formatos: EP, download digital<br>
+            Gravadora: Universal
+          </td>
+         </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>Projeção Pra Elas</td>
+          <td>
+            Lançamento: 19 de fevereiro de 2011<br>
+            Formatos: EP, download digital<br>
+            Gravadora: Independente
+          </td>
+          <td>50.000</td>
+          <td>Ouro</td>
+        </tr>
+      </tbody>
       <tfoot>
         <tr>
         <th scope="row" colspan="2">Total de Discos Vendidos</th>
-        <td colspan="2">65.000</td>
+        <td colspan="2">128.000</td>
       </tr>
       </tfoot>
     </table>
@@ -177,6 +252,10 @@
         </div>
       </footer>
     </div>
+   
+   
+   
+  
     
     </body>
     
