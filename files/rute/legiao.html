@@ -10,12 +10,12 @@
         <link rel="shortcut icon" href="img-legiao/favicon-legiao.ico">
 
         <link class="TelaPrincipal" rel="stylesheet" href="img/Tela-legiao.jpg">
+       
 
-        <link rel="stylesheet" href="small-screen.css" media="screen and(max-widht: 600px)">
+       <link rel="stylesheet" href="estilo-tela.css" media="all">
         <link rel="stylesheet" href="phone.css" media="screen and (min-widht: 600px) and (min-widht: 768px)">
         <link rel="stylesheet" href="tablet.css" media="screen and (min-widht: 768px) and (max-widht: 992px)">
-        <link rel="stylesheet" href="pc.css" media="screen and (min-widht: 992px) and (max-widht: 1200px)">
-        <link rel="stylesheet" href="tv.css" media="screen and (max-widht: 1200px)">
+       
         
 
         <script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
@@ -28,6 +28,40 @@
 	</style>
   
   <title>Legião Urbana</title>
+  <script href="legiao.js"></script>
+  <script>
+    function NewImage1(){
+           document.getElementById("img1").src="img/album4_legiao.jpg";
+           document.getElementById("p1").innerHTML="A Tempestade ou o Livro dos Dias";
+           document.getElementById("p2").innerHTML="1996"
+           }
+           function Imagem1(){
+             document.getElementById("img1").src="img/album1_legiao.jpeg"
+             document.getElementById("p1").innerHTML="Dois";
+             document.getElementById("p2").innerHTML="1996"
+           }
+           function NewImage2(){
+             document.getElementById("img2").src="img/album5_legiao.jpeg"
+             document.getElementById("p3").innerHTML="Como É que Se Diz Te Amo";
+             document.getElementById("p4").innerHTML="2001";
+           }
+           function Imagem2(){
+             document.getElementById("img2").src="img/album2_legiao.jpeg";
+             document.getElementById("p3").innerHTML="Quatro Estações"
+             document.getElementById("p4").innerHTML="1989";
+           }
+           function NewImage3(){
+             document.getElementById("img3").src="img/album6_legiao.jpg";
+             document.getElementById("p5").innerHTML="Mais do Mesmo";
+             document.getElementById("p6").innerHTML="1998";
+           }
+           function Imagem3(){
+             document.getElementById("img3").src="img/album3_legiao.jpeg";
+             document.getElementById("p5").innerHTML="Acústico MTV"
+             document.getElementById("p6").innerHTML="1999";
+             }
+           </script>
+
      </head>
      <body>
       <div style="background-color: #000;color: #fff; width: 100%; height:30px;">
@@ -86,28 +120,31 @@
 
              <section>
                  <div class="album">
-                     <img src="img/album1.jpeg" alt="Àlbum 1">
-                     <p>Dois</p>
-                     <p>1986</p>
+                     <img id="img1" onmouseover="NewImage1()" onmouseout="Imagem1()" src="img/album1_legiao.jpeg" alt="Àlbum 1">
+                     <p id="p1">Dois</p>
+                     <p id="p2">1986</p>
                      <nav>
-                         <a href="https://www.youtube.com/playlist?list=PL07699EFE70C08E85" target="_blank">Assista a Playlist</a>
+                         <a href="https://www.youtube.com/playlist?list=PL07699EFE70C08E85" target="_blank">Dois</a><br><br>
+                         <a href="https://www.youtube.com/playlist?list=PLS1TpdZAiBnbVbx-3UBgfFBoX2t8-AWou" target="_blank">A Tempestade ou O Livro dos Dias</a>
                      </nav>
                      </div>
                      <div class="album">
-                        <img src="img/album2.jpeg" alt="Àlbum 2">
-                        <p>Quatro Estações</p>
-                        <p>1989</p>
+                        <img id="img2" onmouseover="NewImage2()" onmouseout="Imagem2()" src="img/album2_legiao.jpeg" alt="Àlbum 2">
+                        <p id="p3">Quatro Estações</p>
+                        <p id="p4">1989</p>
                         <nav>
-                            <a href="https://www.youtube.com/playlist?list=PLA7F5D92318ADAB54" target="_blank">Assista a Playlist</a>
+                            <a href="https://www.youtube.com/playlist?list=PLA7F5D92318ADAB54" target="_blank">Quatro Estações</a><br><br>
+                            <a href="https://www.youtube.com/playlist?list=OLAK5uy_nKZNGYl2fxu899NOv_wLniuc45AeSif5c" target="_blank">Como É que Se Diz Te Amo</a>
 
                         </nav>
                         </div>
                         <div class="album">
-                            <img src="img/album3.jpeg" alt="Àlbum 3">
-                            <p>Acústico MTV</p>
-                            <p>1999</p>
+                            <img id="img3" onmouseover="NewImage3()" onmouseout="Imagem3()" src="img/album3_legiao.jpeg" alt="Àlbum 3">
+                            <p id="p5">Acústico MTV</p>
+                            <p id="p6">1999</p>
                             <nav>
-                                <a href="https://www.youtube.com/playlist?list=PL85E4D2A86E1AE945" target="_blank">Assista a Playlist</a>
+                                <a href="https://www.youtube.com/playlist?list=PL85E4D2A86E1AE945" target="_blank">Acústico MTV</a><br><br>
+                                <a href="https://www.youtube.com/playlist?list=OLAK5uy_kYw-RToAzNkLQuoWB5phrfxut9CAPynfM" target="_blank">Mais do Mesmo</a>
                             </nav>
 
                         </div>
@@ -157,13 +194,49 @@
                         Gravadora: EMI
                       </td>
                       <td>500.000</td>
-                      <td>2X Plantina</td>
+                      <td>2X Platina</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                      <td>A Tempestade ou O Livro dos Dias</td>
+                      <td>
+                        Lançamento: 20 de setembro de 1996<br>
+                        Formatos: LP, K7, CD<br>
+                        Gravadora: EMI
+                       </td>
+                       <td>500.000</td>
+                       <td>2X Platina</td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td>Como É que Se Diz Te Amo</td>
+                      <td>
+                        Lançamento: 2001<br>
+                        Formato: CD(duplo)<br>
+                        Gravadora: EMI
+                      </td>
+                      <td>250.000</td>
+                      <td>Platina</td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td>Mais do Mesmo</td>
+                      <td>
+                        Lançamento: 1998<br>
+                        Formato: CD<br>
+                        Gravadora: EMI
+                      </td>
+                      <td>750.000</td>
+                      <td>3X Platina</td>
                     </tr>
                   </tbody>
                   <tfoot>
                     <tr>
                     <th scope="row" colspan="2">Total de Discos Vendidos</th>
-                    <td colspan="2">3.300.000</td>
+                    <td colspan="2">4.800.000</td>
                   </tr>
                   </tfoot>
                 </table>
