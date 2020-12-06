@@ -3,3 +3,5 @@ Sexto Envio:
  
   Ewerton -> Criação da pagina canto do conhecimento (file/hstMusc/canto.html), pagina e mostra um pouco da historia da musica e que tem implementações js no propio html, js foi feito para por uma playlist de musicas de cada banda 
   
+  Jaqueline - adicionando Menu-sidebar animado com a  function OnClick que esconde e mostra conteúdo HTML.
+  
