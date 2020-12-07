@@ -1,0 +1,147 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1em;
+    color: rgb(207, 62, 62);
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 80%;
+}
+
+p{
+    text-align: justify;
+    margin: 20px;
+}
+.texto-central{
+    text-align: center;
+    font-size: 2em;
+}
+
+figure.foto-legenda{
+    border: 4px solid white;
+    box-shadow: 3px 5px 4px black;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+figure figcaption{
+    text-align: center;
+}
+
+a{
+    color: rgb(172, 31, 172);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(65, 23, 65);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color:rgba(255, 255, 255, 0.856);
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 3px 5px 4px black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.quadrado{
+    display: inline-block; 
+    width: 45%;
+    height: 45%;
+    border: 4px solid white;
+    box-shadow: 3px 5px 4px black;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+table{
+    width: 100%;
+    border: 4px solid white;
+    border-collapse: separate;
+    background-color: white;
+    box-shadow: 3px 5px 4px black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid rgba(0, 0, 0, 0.74);
+}
+
+.retorno{
+    width: 200px;
+    border: 4px solid white;
+    background-color: white;
+    box-shadow: 3px 5px 4px black;
+    border-radius: 20px;
+}
+
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+article{
+    width: 100%;
+    border-radius:20px 20px 20px 0px;
+    box-shadow: 3px 5px 4px black;
+    background-color: white;
+    margin: auto;
+}
+
+h1,h2{
+    text-decoration: underline;
+}
+ 
+figure.album{
+    display: flex;
+    box-shadow: 3px 5px 4px black;
+    border-radius: 20px;
+    background-color: white;
+    width: 90%;
+}
+
+figure.album img{
+    width: 30%;
+}
+
+figure.album p{
+    float: right;
+}
+
+footer{float: left;margin-top: 10px;padding-top: 10px;width: 100%;background-color: #000000;color: white;font-size: 15px;}
+
+footer div{margin-bottom: 10px;font-size: 30px;}
+
+footer div a{color: #fff;}
+
+footer div i{transition: all 1s ease;}
+
+footer div i:hover{box-shadow: 2px 2px 20px #00ace6;color:#00ace6;}
+
+
+
+
+
+
