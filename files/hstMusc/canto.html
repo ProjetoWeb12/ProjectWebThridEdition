@@ -3,73 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
 
     <script  type="text/javascript" src="js/js.js"></script>
-
+    
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Texturina:wght@100&display=swap" rel="stylesheet">
     
     <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
     <link rel="stylesheet" href="iframe.css">
     <link rel="stylesheet" href="estylo.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Historia da música</title>
 
 </head>
 <body>  
-     <div id="1" style="display: none;"class="barraMusica" >
-        <iframe class="ofc" src="html/iframeProjt.html" width="200px" height="300px" frameborder="0"></iframe>
-
-    </div>
-
-
-    <div id="2"style="display: none;"class="barraMusica">
-        <iframe src="html/iframeKiss.html" frameborder="0"width="200px" height="300px"></iframe>
-    </div>
-    
-
-    <div id="3" style="display: none;"class="barraMusica">
-        <iframe class="ofc" src="html/iframeMfd.html" width="260px" height="300px" frameborder="0"></iframe>
-    </div>
-    
-    
-    <div id="4"style="display: none;"class="barraMusica">
-        <iframe class="ofc" src="html/iframeOneRepublic.html" width="260px" height="300px" frameborder="0"></iframe>
-    </div>
-
-    <div id="5" style="display: none;" class="barraMusica">
-        <iframe class="ofc" src="html/iframe-msOfg.html" width="200px" height="300px" frameborder="0"></iframe>
-    </div>
-    
-    
-    <div id="6"style="display: none;"class="barraMusica">
-        <iframe src="html/iframeTheBeatles.html" width="200px" height="300px" frameborder="0"></iframe>
-    </div>
-    
-    
-    <div id="7"style="display: none;"class="barraMusica">
-        <iframe class="ofc" src="html/iframeLgUrb.html"width="200px" height="300px" frameborder="0"></iframe>
-    </div>
      
 
     <header>
-       <h1>Canto do Sossego</h1>
-      
+       
+       <h1 class="titulo">Canto do Sossego</h1>
+
       
         
        <nav>
-            <ul>
-                <li onclick="aparecer1()"><a href="#">Projota</a></li>
-                <li onclick="aparecer2()"><a href="#">Kiss</a></li>
-                <li onclick="aparecer3()"><a href="#">Munford</a></li>
-                <li onclick="aparecer4()"><a href="#">One Republic</a></li>
-                <li onclick="aparecer5()"><a href="#">OficinaG3</a></li>
-                <li onclick="aparecer6()"><a href="#">The Beatles</a></li>
-                <li onclick="aparecer7()"><a href="#">Legião Urbana</a></li>
+
+        <!--
+            <ul class="princ">
+                <li onclick="aparecer1()"><a >Projota</a></li>
+                <li onclick="aparecer2()"><a >Kiss</a></li>
+                <li onclick="aparecer3()"><a >Munford</a></li>
+                <li onclick="aparecer4()"><a >One Republic</a></li>
+                <li onclick="aparecer5()"><a >OficinaG3</a></li>
+                <li onclick="aparecer6()"><a >The Beatles</a></li>
+                <li onclick="aparecer7()"><a >Legião Urbana</a></li>
                 <li>  <a class="volta" href="../../index.html">Volta</a></li>
                
             </ul>
-           
+           -->
+           <div class="pos-f-t  menu">
+            <div class="collapse " id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h5 class="text-white h4">PlayList</h5>
+               
+                <ul class="princ">
+
+
+                    <div id="1"class="barraMusica" >
+                        <iframe class="ofc" src="html/iframeProjt.html" width="160px" height="100px" frameborder="0"></iframe>
+
+                    </div>
+
+
+                    <div id="2"style="display: none;"class="barraMusica">
+                        <iframe src="html/iframeKiss.html" frameborder="0"width="160px" height="100px"></iframe>
+                    </div>
+                    
+
+                    <div id="3" style="display: none;"class="barraMusica">
+                        <iframe class="ofc" src="html/iframeMfd.html" width="160px" height="100px"frameborder="0"></iframe>
+                    </div>
+                    
+                    
+                    <div id="4"style="display: none;"class="barraMusica">
+                        <iframe class="ofc" src="html/iframeOneRepublic.html" width="160px" height="100px" frameborder="0"></iframe>
+                    </div>
+
+                    <div id="5" style="display: none;" class="barraMusica">
+                        <iframe class="ofc" src="html/iframe-msOfg.html" width="160px" height="100px" frameborder="0"></iframe>
+                    </div>
+                    
+                    
+                    <div id="6"style="display: none;"class="barraMusica">
+                        <iframe src="html/iframeTheBeatles.html" width="160px" height="180px" frameborder="0"></iframe>
+                    </div>
+                    
+                    
+                    <div id="7"style="display: none;"class="barraMusica">
+                        <iframe class="ofc" src="html/iframeLgUrb.html"width="160px" height="auto" frameborder="0"></iframe>
+                    </div>
+                    <li onclick="aparecer1()"><a >Projota</a></li>
+                    <li onclick="aparecer2()"><a >Kiss</a></li>
+                    <li onclick="aparecer3()"><a >Munford</a></li>
+                    <li onclick="aparecer4()"><a >One Republic</a></li>
+                    <li onclick="aparecer5()"><a >OficinaG3</a></li>
+                    <li onclick="aparecer6()"><a >The Beatles</a></li>
+                    <li onclick="aparecer7()"><a >Legião Urbana</a></li>
+                    <li>  <a class="volta" href="../../index.html">Volta</a></li>
+                   
+
+
+
+                </ul>
+
+    
+     
+
+
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+          </div>
+
+          <div class="pos-f-t  menuMb">
+        
+            <div class="collapse " id="navbarToggleExternalContent">
+                
+              <div class="bg-dark p-4">
+               
+                <h5 class="text-white h4">PlayList</h5>
+               
+                <ul class="princ">
+                    <li ><a target="blank" href="https://youtu.be/kzLESxMqnTg">Projota</a></li>
+                    <li ><a target="blank" href="https://youtu.be/ZhIsAZO5gl0">Kiss</a></li>
+                    <li ><a target="blank" href="https://youtu.be/rGKfrgqWcv0">Munford & Sons</a></li>
+                    <li ><a target="blank" href="https://youtu.be/hT_nvWreIhg">One Republic</a></li>
+                    <li ><a target="blank" href="https://youtu.be/Gp-8l7cFNM8">OficinaG3</a></li>
+                    <li ><a target="blank" href="https://youtu.be/A_MjCqQoLLA">The Beatles</a></li>
+                    <li ><a target="blank" href="https://youtu.be/Br5mxBwsKMI">Legião Urbana</a></li>
+                    <li>  <a class="volta" href="../../index.html">Volta</a></li>
+                   
+                </ul>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span> <h5 class="text-white h4">PlayList</h5>
+              </button>
+            </nav>
+          </div>
+        
         
             <script>
 
@@ -182,67 +250,148 @@
         </p>
         <br>
         <hr>
-        <p>
-            <h2>Historia da música</h2>
-
-            <p>
-                conheça um pouco sobre a historia da música e como começou tudo isso, ate chega nas mais
-                variadas tipos de sons, ritimos, instrumentos, culturas e entre outras formas de se fazer musica.
-            </p>
-           
-            <p>
-                A História da música é muito antiga, visto que desde os primórdios os homens produziam diversas formas de sonoridade.
-
-                Lembre-se, portanto, que a música é um tipo de arte que trabalha com a harmonia entre os sons, o ritmo, a melodia, a voz.
-                Todos esses elementos são importantes e podem nos transportar para outro tempo e espaço, resgatar memórias e reacender emoções.
-                
-                Veremos como essa linguagem artística caminhou durante os séculos até os nossos dias para adquirir as características que possui hoje no Ocidente.
-                <strong> <a href="https://www.todamateria.com.br/historia-da-musica/">Rerencia</a></strong>
-                
-            </p>
-            <img class="imgcnt" src="img/img-canto2.jpg" alt="imagem de uma pintura antiga em uma pedra">
-
-            <br>
-            <hr>
-            <h2>Musica na pré-histórica</h2>
-            <p>
-                A humanidade possui uma relação longa com a música, sendo essa umas das formas de manifestação cultural mais antigas.
-                Ainda na pré-história, há mais de 50 mil anos, os seres humanos começaram a desenvolver ações sonoras baseadas na observação dos fenômenos da natureza.
-                Os ruídos das ondas quebrando na praia, os trovões, a comunicação entre os animais, o barulho do vento balançando as árvores, as batidas do coração; 
-                tudo isso influenciou as pessoas a também explorarem os sons que seus próprios corpos produziam. Como, por exemplo, os sons das palmas, dos pés batendo no chão, da própria voz, entre outros.
-                Nessa época, tais experimentações não eram consideradas arte propriamente e estavam relacionadas à comunicação, aos ritos sagrados e à dança.
-            </p>
-            <img src="img/img-canto3.jpg" alt="">
-            <br>
-            <hr>
-            <h2>Evolução </h2>
-            <p>
-                Em 1957 Marius Schneider escreveu: 
-                <br>
-                <p class="enfases">
-                    <em>
-                 “Até poucas décadas atrás o termo ‘história da música’ significava meramente história da música erudita européia. 
-                Foi apenas gradualmente que o escopo da música foi estendido para incluir a fundação indispensável da música não européia e finalmente da música pré-histórica.”
-                </em>
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#hsm" role="tab" aria-controls="hsm" aria-selected="true">Historia da música</a>
+              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#mscph" role="tab" aria-controls="mscph" aria-selected="false">Musica na pré-histórica</a>
+              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#evl" role="tab" aria-controls="evl" aria-selected="false">Evolução</a>
+              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#isnt" role="tab" aria-controls="isnt" aria-selected="false">Instrumentos de corda</a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="hsm" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p>
+                    conheça um pouco sobre a historia da música e como começou tudo isso, ate chega nas mais
+                    variadas tipos de sons, ritimos, instrumentos, culturas e entre outras formas de se fazer musica.
                 </p>
+               
+                <p>
+                    A História da música é muito antiga, visto que desde os primórdios os homens produziam diversas formas de sonoridade.
+    
+                    Lembre-se, portanto, que a música é um tipo de arte que trabalha com a harmonia entre os sons, o ritmo, a melodia, a voz.
+                    Todos esses elementos são importantes e podem nos transportar para outro tempo e espaço, resgatar memórias e reacender emoções.
+                    
+                    Veremos como essa linguagem artística caminhou durante os séculos até os nossos dias para adquirir as características que possui hoje no Ocidente.
+                    <strong> <a href="https://www.todamateria.com.br/historia-da-musica/">Rerencia</a></strong>
+                    
+                </p>
+                <img class="imgcnt" src="img/img-canto2.jpg" alt="imagem de uma pintura antiga em uma pedra">
+    
                 <br>
-                Há, portanto, tantas histórias da música quanto há culturas e espaços no mundo e todas as suas vertentes têm desdobramentos e subdivisões. Podemos assim falar da história da música do ocidente, mas também podemos desdobrá-la na história da música erudita do ocidente, história da música popular do ocidente, história da música do Brasil, história do samba, e assim sucessivamente.
-                Uma das razões do conceito difundido de que história da música refere-se apenas à música ocidental é a grande quantidade de obras existentes que tratam apenas desta vertente e que predominaram por muitos séculos. Apenas após o surgimento da etnomusicologia (uma área da etnologia), foi que as origens da música não européia passaram a ser mais bem documentadas.
-                Nos estudos da música primitiva que tentam relacionar a música às culturas que as envolvem, há duas abordagens prevalecentes: a Kulturkreis da “Escola de Berlim” e a tradição norte americana da área cultural. Entre os adeptos da Kulturkreis está Curt Sachs, que analisou a distribuição de instrumentos culturais de acordo com os círculos culturais estudados por Gräbner, Schmidt, Isadora e Preuss, entre outros, e descobriu que as distribuições coincidiam e estavam correlacionadas. De acordo com esta teoria, todas as culturas passam pelos mesmos estágios e as diferenças culturais indicam a idade e velocidade de desenvolvimento de uma dada cultura.
-            </p>
+                <hr>
 
-        </p>
+            </div>
+            <div class="tab-pane fade" id="mscph" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p>
+                    A humanidade possui uma relação longa com a música, sendo essa umas das formas de manifestação cultural mais antigas.
+                    Ainda na pré-história, há mais de 50 mil anos, os seres humanos começaram a desenvolver ações sonoras baseadas na observação dos fenômenos da natureza.
+                    Os ruídos das ondas quebrando na praia, os trovões, a comunicação entre os animais, o barulho do vento balançando as árvores, as batidas do coração; 
+                    tudo isso influenciou as pessoas a também explorarem os sons que seus próprios corpos produziam. Como, por exemplo, os sons das palmas, dos pés batendo no chão, da própria voz, entre outros.
+                    Nessa época, tais experimentações não eram consideradas arte propriamente e estavam relacionadas à comunicação, aos ritos sagrados e à dança.
+                </p>
+                <img class="imgcnt" src="img/img-canto3.jpg" alt="">
+                <br> 
+                <hr>
+
+            </div>
+            <div class="tab-pane fade" id="evl" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                <h2>Evolução </h2>
+                <p>
+                    Em 1957 <a target="blank" class="autorMs" href="https://pt.wikipedia.org/wiki/Marius_Schneider">Marius Schneider</a> escreveu: 
+                    <br>
+                    <p class="enfases">
+                        <em>
+                     “Até poucas décadas atrás o termo ‘história da música’ significava meramente história da música erudita européia. 
+                    Foi apenas gradualmente que o escopo da música foi estendido para incluir a fundação indispensável da música não européia e finalmente da música pré-histórica.”
+                    </em>
+                    </p>
+                    <br>
+                    Há, portanto, tantas histórias da música quanto há culturas e espaços no mundo e todas as suas vertentes têm desdobramentos e subdivisões. Podemos assim falar da história da música do ocidente, mas também podemos desdobrá-la na história da música erudita do ocidente, história da música popular do ocidente, história da música do Brasil, história do samba, e assim sucessivamente.
+                    Uma das razões do conceito difundido de que história da música refere-se apenas à música ocidental é a grande quantidade de obras existentes que tratam apenas desta vertente e que predominaram por muitos séculos. Apenas após o surgimento da etnomusicologia (uma área da etnologia), foi que as origens da música não européia passaram a ser mais bem documentadas.
+                    Nos estudos da música primitiva que tentam relacionar a música às culturas que as envolvem, há duas abordagens prevalecentes: a Kulturkreis da “Escola de Berlim” e a tradição norte americana da área cultural. Entre os adeptos da Kulturkreis está Curt Sachs, que analisou a distribuição de instrumentos culturais de acordo com os círculos culturais estudados por Gräbner, Schmidt, Isadora e Preuss, entre outros, e descobriu que as distribuições coincidiam e estavam correlacionadas. De acordo com esta teoria, todas as culturas passam pelos mesmos estágios e as diferenças culturais indicam a idade e velocidade de desenvolvimento de uma dada cultura.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="isnt" role="tabpanel" aria-labelledby="nav-contact-tab">
+                
+                <p>
+                   <h2>Nomes Instrumentos de Corda</h2>
+                   <p>
+                    São assim a guitarra, o violão, a viola caipira, violino, a viola, o violoncelo, os baixos e contrabaixos, o cavaquinho, o alaúde, o banjo, obandolim e muitos outros. Alguns instrumentos tem cordas de tamanhos variados como no caso do banjo de cinco cordas.
+                   </p>
+
+                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Violão</h5>
+                            <p class="p-carousel">Membro da família de instrumentos musicais chamados de cordofones, o violão é um instrumento de cordas com o qual o som é produzido “arranhando” uma série de cordas ao longo do corpo do instrumento. </p>
+                        </div>
+
+                        <img class="d-block w-100" src="img/violao2.jpg" alt="Violão">
+                      </div>
+
+                      <div class="carousel-item">
+                          <div class="carousel-caption d-none d-md-block">
+                                <h5>Guitarra</h5>
+                                <p class="p-carousel">O substantivo guitarra refere-se a uma série de instrumentos de cordas dedilhada, que possuem geralmente de 6 a 12 cordas tensionadas ao longo do instrumento e possuem um corpo com formato aproximado de um 8 (embora também existam em diversos outros formatos), além de um braço, sobre o qual as cordas passam, permitindo ao executante controlar a altura da nota produzida. Existem versões acústicas, que possuem caixa de ressonância e elétricas, que podem ou não possuir caixa de ressonância (ver: guitarra semiacústica), mas utilizam captadores e amplificadores para aumentar a intensidade sonora do instrumento.[1]</p>
+                                <p><a href="https://pt.wikipedia.org/wiki/Guitarra">Referencia</a></p>
+                            </div>
+
+                            <img class="d-block w-100" src="img/guita1.jpg" alt="Guitarra">
+                      </div>
+
+                      <div class="carousel-item">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Contra baixo</h5>
+                            <p class="p-carousel"> Baixo elétrico, chamado também de contrabaixo elétrico, viola baixo, baixão ou simplesmente baixo é um instrumento de cordas. É utilizado por diversos gêneros musicais modernos.
+
+                                O baixo elétrico tradicional e popular que a maioria das bandas de rock usa é muito similar a uma guitarra elétrica, mas com o corpo maior, um braço mais longo e uma escala mais extensa.</p>
+                                <p><a href="https://pt.wikipedia.org/wiki/Baixo_el%C3%A9trico">Referencia</a></p>
+                            </div>
+                        <img class="d-block w-100" src="img/baixo1.jpg" alt="Contra baixo">
+                      </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+                </p>
+
+            </div>
+          </div>
         
     </aside>
 
+  
     <footer>  <p>Todos os Direitos Reservados &copy;HdA Productions 2020</p>
-        <div>
+        <div class="icon-footer">
             <a href="https://github.com/ProjetoWeb12"><i class="fab fa-github-square"></i></a>
             <a href=""><i class="fab fa-linkedin"></i></a>
             <a href=""><i class="fab fa-twitter-square"></i></a>
             <a href=""><i class="fab fa-instagram-square"></i></a>
             
         </div>
+
+
+
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,8 +3,43 @@
     margin: 0px;
     
 }
-ol, ul,li {
-	list-style: none;
+
+
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    aside.as1{
+        margin-left: 10px;
+        min-width: 768px;
+        max-width: 991,98;
+        width: auto;
+        
+    }
+    div.menu{
+        display: none;
+    }
+    div.menuMb{
+        display: block;
+    }
+    div.barraMusica{
+        display: none;
+    }
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    aside.as1{
+      margin-left: 10px;
+  }
+
+}
+.menuMb{
+    display: none;
+}
+
+ol, ul,.li {
+    list-style: none;
+    cursor: pointer;
 }
 :root{
     --cor0: #F2F2F2;
@@ -19,40 +54,80 @@ ol, ul,li {
    
 
 }
-a{
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #2e2e2e;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+iframe{
+    width: 170px;
+    height: 120px;
+    position: relative;
+    
+    
+    background-color: var(--cor2);
+    z-index: 100;
+    border-radius: 20px 0px 20px 0px;
+  
+
+}
+#tocando li{
+    margin-left: 8px;
+}
+.colorIfr{
+    background-color: var(--cor3);
+}
+.barraMusica{
+   
+   width: 200px;
+   
+}
+.menu{
+    background-color: ivory;
+}
+ul li a{
     text-decoration: none;
-    color: var(--cor5);
+    color: var(--cor0);
     
 }
-
-
-a:hover{
-    text-decoration: underline;
+.princ{
+    margin: 0;
+    color: white;
 }
 
 
 body{
-    background-color:#F2F2F2;
+    
     font-family: var(--font2);
+
 }
 body aside{
     width: 1000px;
-   
-    margin-left: 280px;
+    margin: auto;
 
 }
 aside p {
     color: var(--cor3);
+}
+.p-carousel{
+    color: var(--cor0);
+
 }
 .enfases{
     border-left: 1px solid var(--cor2);
     padding-left: 15px;
 
 }
-header h1{
+.titulo{
     background-color:var(--cor3);
     padding-left: 30px;
-
+    margin: 0px;
+    
 }
 .as1{
    padding-top: 60px;
@@ -61,17 +136,19 @@ header{
     background-color: var(--cor2);
     position: fixed;
     width: 100%;
-
+    z-index: 1000;
+   top: 0px;
 }
 ul li {
     display: inline-block;
-
+    
 }
 ul li a{
-  
-    padding-left: 10px;
-    padding-right: 10px;
-    transition: 1s all ease-in-out;
+    color: white;
+    border-radius: 2px;
+    padding: 4px;
+    transition: 1s all ease-out;
+    
 }
 ul li a:hover{
     background-color: var(--cor1);
@@ -83,7 +160,7 @@ aside h2{
 }
 
 
-aside img{
+.imgcnt{
     max-width: 500px;
     max-height: 400px;
     width: auto;
@@ -93,6 +170,7 @@ aside img{
     margin-bottom: 5px;
 
 }
+
 #nome_musica{
     font-size: 20px;
 
@@ -100,8 +178,12 @@ aside img{
 
 .btnMs{
     background-color: var(--cor3);
+    border: 1px solid var(--cor1);
+
+    color: var(--cor1);
     border-radius: 2px;
     padding: 5px;
+    margin-left: 5px;
     width: 30px;
     height: auto;
     cursor: pointer;
@@ -110,7 +192,8 @@ aside img{
 }
 .btnMs:hover{
     color: white;
-
+    border: 1px solid var(--cor4);
+    background-color: var(--cor4);
 }
 button{
     outline: none;
@@ -118,12 +201,20 @@ button{
 
 }
 
-.barraMusica{
-    float: left;
-    width: 200px;
-    margin-top: 80px;
-    padding: 10px;
+
+/*=======================*/
+
+.rfr{
+    display: none;
+    position: fixed;
+
 }
+p.autorMs:hover .rfr{
+    display: inline-block;
+}
+
+
+/*=======================*/
 
 ol h3{
     font-size: 40px;
@@ -149,7 +240,7 @@ footer{
     text-align: center;
     font-size: 15px;
     height: 60px;
-  
+    
 }
 footer div{ 
     font-size: 30px;
@@ -163,6 +254,10 @@ footer div i{
 footer div i:hover{
     box-shadow: 2px 2px 20px #00ace6;
     color:#00ace6;
-
+    position: relative;
+    
+}
+.icon-footer{
+    background-color: var(--cor3);
 }
 
