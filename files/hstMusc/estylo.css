@@ -7,30 +7,53 @@
 
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 500px) and (max-width : 764px){
+
+    aside.as1{
+        margin: auto;
+        min-width: 500px;
+        max-width: 764px;
+        width: auto;
+        padding: 5px;
+
+    }
+      div.barraMusica{
+        display: none;
+    }
+      div.menu{
+        display: none;
+    }
+    div.menuMb{
+        display: block;
+    }
+    img.imgcnt{
+        margin-left:100px;
+    }
+  
+
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) { 
     aside.as1{
         margin-left: 10px;
         min-width: 768px;
         max-width: 991,98;
         width: auto;
-        
+          margin: auto;
     }
-    div.menu{
-        display: none;
-    }
-    div.menuMb{
-        display: block;
-    }
-    div.barraMusica{
-        display: none;
-    }
+    
+   
+  
+  
 }
 
 /*Dispositivos large (desktops com 992px ou mais)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     aside.as1{
-      margin-left: 10px;
+      margin: auto;
+      
   }
+
 
 }
 .menuMb{
@@ -141,6 +164,7 @@ header{
 }
 ul li {
     display: inline-block;
+    margin-top: 10px;
     
 }
 ul li a{
@@ -148,6 +172,7 @@ ul li a{
     border-radius: 2px;
     padding: 4px;
     transition: 1s all ease-out;
+    
     
 }
 ul li a:hover{
