@@ -5,22 +5,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-@media screen and (min-widht: 600px) and (max-widht: 768px){
-    body{
-       background-image: url('../img/Tela-legiao.jpg');
-       background-attachment: fixed;
-       background-repeat: no-repeat;
-       background-size: cover;
-    }
-}
-@media screen and (min-widht: 768px) and (max-widht: 992px){
-    body{
-        background-image: url('../img/Tela-legiao.jpg');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-     }
-}
 a.voltando{
    background-color: black;
    font-size: 1.5em;
