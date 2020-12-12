@@ -1,10 +1,2 @@
-Sexto Envio:
-  douglas -> Criação do formulário join_us.html (/files/doug/join_us.html) pois a HdA está recrutando novos membros, ela está toda erificada com js bruto (/files/doug/join_us.js) e possui uma animação de trocar a cor do body ao passar o mouse em cima do botõa de enviar o formulário.
- 
- moreira -> footer padrão da equipe adicionado, criação de página com informações dos albuns, criação de página com fotografias da banda, links organizados em tabela e revisão do estilo em geral da página.
-
-  Rute -> Desenvolvimento de "animação" com javaScript nas páginas projota.html e legiao.html. Animação sendo ela a de passar o mouse por cima das imagens dos álbuns e ela mostrar outras imagens e texto, (localizadas, script locaizado nas páginas: 35 a 67, e demais configurações nas páginas: 123, 124, 125, 133, 134, 135, 143, 144 e 145 do arquivo projota.html). Já no arquivo legiao.html(script pode ser localizado nas páginas: 32 a 63 e demais configurações nas páginas: 123, 124, 125, 132, 133, 134, 142 143 e 144). Atualização da tabela sobre os discos vendidos.
-
-  Ewerton -> Criação da pagina canto do conhecimento (file/hstMusc/canto.html), pagina e mostra um pouco da historia da musica e que tem implementações js no propio html, js foi feito para por uma playlist de musicas de cada banda 
-  
-  Jaqueline - adicionando Menu-sidebar animado com a  function OnClick que esconde e mostra conteúdo HTML.
+Sétimo envio:
+  douglas -> organização do about_us.html (/files/doug/about_us.html) com Bootstrap (uso de content, row e col), links do github e github pages substituidos por botões de classe btn 'btn-outline-dark' e 'btn btn-outline-primary', criação de um nav simples com a classe 'navbar' como atalho para a região de definição de cada membro.
