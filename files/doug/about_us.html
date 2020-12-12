@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/about_us.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/581c962ab9.js" crossorigin="anonymous"></script>
 	<style type="text/css">
 		footer{float: left;margin-top: 10px;padding-top: 10px;width: 100%;background-color: #000000;color: white;text-align: center;font-size: 15px;}
@@ -13,56 +14,65 @@
 	</style>
 	<title>The HdA!</title>
 </head>
-<body>
+<body> 
 	<div style="background-color: #000;color: #fff; width: 100%; height: 30px;">
 		<h2>HdA Productions</h2>
 	</div>
 
-	<header class="align">
+	<header class="content">
 		<img id="logo" src="img/logo.png">
 	</header>
 
 	<article class="bio align">
+		<div class="navbar">
+			<a href="../../index.html">Home</a>
+			<a href="#doug">$_kirigaia_$</a>
+			<a href="#paulo">Paulo quebra-códigos</a>
+			<a href="#ewerton">Galileu</a>
+			<a href="#jaqueline">J@qu3</a>
+			<a href="#rute">*-_RUT#_-*</a>
+		</div>
 		<h1 class="title">Com vocês, os Hackers de Araraquara, ou quase.</h1>
 		<p>O grupo foi fundado com o objetivo de realizar as atividades nas matérias dadas pelo Ensino Remoto Emergencial e para aumentar a assiduidade do grupo, criamos uma "corporação" com logo e tudo. Os integrantes são: Douglas Nunes, Ewerton Vitor, Jaqueline dos Santos, João Paulo Moreira e Rute Karollaye. A seguir veremos alguns fragmentos dos passados sombrios de tais programadores.</p>
 	</article>
 
 	<article class="align">
-		<h1><a href="https://github.com/ProjetoWeb12/ProjectWebThridEdition">Link github</a></h1>
-		<h1><a href="https://projetoweb12.github.io/ProjectWebThridEdition/">Link github page</a></h1>
+		<button onclick="window.open('https://projetoweb12.github.io/ProjectWebThridEdition/')" type="button" class="btn btn-outline-dark">Link Github Pages</button>
+		<button onclick="window.open('https://github.com/ProjetoWeb12/ProjectWebThridEdition');" type="button" class="btn btn-outline-primary">Link github</button>
+		
 	</article>
 
 
 
 	<h1 class="title">Equipe</h1>
-	<article class="equipe align">
-		<h1>$_kirigaia_$</h3>
-		<img src="img/photo-equipe-1.jpg">
-		<p>Pouco se sabe sobre a lenda do usuário $_kirigaia_$, mas é certeza que ele é perigoso. Vulgo Douglas, supostamente aprendeu a programar com 5 meses de vida e desde então vem quebrando sistemas bancários e servidores unicamente para testar suas habilidades. Criador das páginas index, about_us, mumford e Beatles.</p>
+	<article class="row">
+		<h1 id="doug">$_kirigaia_$</h3>
+		<img class="col-2" src="img/photo-equipe-1.jpg">
+		<p class="col-6">Pouco se sabe sobre a lenda do usuário $_kirigaia_$, mas é certeza que ele é perigoso. Vulgo Douglas, supostamente aprendeu a programar com 5 meses de vida e desde então vem quebrando sistemas bancários e servidores unicamente para testar suas habilidades. Criador das páginas index, about_us, mumford e Beatles.</p>
 	</article>
 	<br>
-	<article class="equipe align">
-		<h1>Paulo quebra-códigos</h3>
-		<img src="img/photo-equipe-2.jpg">
-		<p>Pouco importa ter conhecimento e habilidade, essa figura lendária desenvolveu desde criança a suprema técnica da "gambiarra" que lhe rendeu inúmeras façanhas. Aos sete anos, Paulo roubos arquivos da CIA, aos onze hackeou satélites americanos para difundir o comunismo. Agora essa lenda viva busca um novo desafio que sua técnica em gambiarra não possa resolver. Criador da página Queen.</p>
+	<article class="row">
+		<h1 id="paulo">Paulo quebra-códigos</h3>
+		<img class="col-2" src="img/photo-equipe-2.jpg">
+		<p class="col-6">Pouco importa ter conhecimento e habilidade, essa figura lendária desenvolveu desde criança a suprema técnica da "gambiarra" que lhe rendeu inúmeras façanhas. Aos sete anos, Paulo roubos arquivos da CIA, aos onze hackeou satélites americanos para difundir o comunismo. Agora essa lenda viva busca um novo desafio que sua técnica em gambiarra não possa resolver. Criador da página Queen.</p>
 	</article>
 	<br>
-	<article class="equipe align">
-		<h3>Galileu</h3>
-		<img src="img/photo-equipe-3.jpg">
-		<p>Especialista em invasão à banco de dados, Ewerton desenvolve maweres, worms, backdors e vários outros desde a época do virus ILOVEYOU e carrega em seu legado um prejuiso de 78 bilhões de dólares em danos por todo o mundo e planeja futuramente congelar toda a intenet, prometendo ser sua maior façanha. Criador da página OficinaG3.</p>
+	<article class="row">
+		<h3 id="ewerton">Galileu</h3>
+		<img class="col-2" src="img/photo-equipe-3.jpg">
+		<p class="col-6">Especialista em invasão à banco de dados, Ewerton desenvolve maweres, worms, backdors e vários outros desde a época do virus ILOVEYOU e carrega em seu legado um prejuiso de 78 bilhões de dólares em danos por todo o mundo e planeja futuramente congelar toda a intenet, prometendo ser sua maior façanha. Criador da página OficinaG3.</p>
 	</article>
 	<br>
-	<article class="equipe align">
-		<h3>J@qu3</h3>
-		<img src="img/photo-equipe-4.jpg">
-		<p>Seu legado é conhecido por todos os cantos da Intenet. Jaqueline é capaz de criar ataques DDoS por qualquer dispositivo com acesso a rede, só demonstra 1% de sua periculosidade. Reza a lenda que ela possui acesso a qualquer computador do planeta. Criadora da página One Republic.</p>
+	<article class="row">
+		<h3 id="jaqueline">J@qu3</h3>
+		<img class="col-2" src="img/photo-equipe-4.jpg">
+		<p class="col-6">Seu legado é conhecido por todos os cantos da Intenet. Jaqueline é capaz de criar ataques DDoS por qualquer dispositivo com acesso a rede, só demonstra 1% de sua periculosidade. Reza a lenda que ela possui acesso a qualquer computador do planeta. Criadora da página One Republic.</p>
 	</article>
 	<br>
-	<article class="equipe align">
-		<h3>*-_RUT#_-*</h3>
-		<img src="img/photo-equipe-5.jpg">
-		<p>Esse é o integrante que menos se sabe sobre, mas as lendar repercurtem pela internet em fórums sobre estudo avançado de cybersegurança. Alguns usuários afirmam que Rute pode parar qualquer ataque hacker, seja ele feito por um grupo grande e bem financiado ou não. A ultima notícia sobre ela era de trabalhar para o governo russo em combates cibernéticos contra terroristas. Criadora da página Projota e Legião Urbana.</p>
+	<article class="row">
+		<h3 id="rute">*-_RUT#_-*</h3>
+		<img class="col-2" src="img/photo-equipe-5.jpg">
+		<p class="col-6">Esse é o integrante que menos se sabe sobre, mas as lendar repercurtem pela internet em fórums sobre estudo avançado de cybersegurança. Alguns usuários afirmam que Rute pode parar qualquer ataque hacker, seja ele feito por um grupo grande e bem financiado ou não. A ultima notícia sobre ela era de trabalhar para o governo russo em combates cibernéticos contra terroristas. Criadora da página Projota e Legião Urbana.</p>
 	</article>
 
 <footer>
