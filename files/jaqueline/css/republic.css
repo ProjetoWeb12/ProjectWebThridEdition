@@ -1,342 +1,165 @@
-body,
-html{
-	margin: 0px;
-	padding: 0px;
-	font-size: 18px;
-}
 body{
-	background-color: lightblue
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-a, a img{
-	text-decoration: none;
-    border: none
+.row{
+    margin: 0;
 }
-img{
-	height: auto;
-    max-width: 100%;
-	border: 3px solid white;
-	border-radius: 20px;
-    box-shadow: 1px 1px 4px black;
-}
-.principal{
-	max-width: 980px;
-	min-width: 400px;
-	color: #444;
-	margin: 0 auto;
-   font-family: Arial, Helvetica, sans-serif;
-  
-}
-.cabecalho,
-.logo,
-.rodape,
-.Menu{
-	width: 100%;
-	display: block;
-    clear: both;
-}
-.cabecalho{
-	height: 100px;
-}
-.logo-cabecalho{
-	float: left;
-}
-.logo-cabecalho a{
-	font-size: 50px;
-	font-style: italic;
-	text-decoration: none;
-	color: #000;
-	display: block;
-	padding: 20px 0 0 0;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	
-	
-}
-.Menu{
-	background-color: black;
-	border-radius: 20px 20px
-}
-.Menu ul li,
-.Menu ul{
-	margin: 0px;
-	padding: 0px;
-    list-style: none;
-    
-}
-.Menu ul li {
-	display: inline-block;
-}
-.Menu ul li a {
-	display: block;
-	color:  lightslategray;
-	padding: 13px 20px;
-}
-.corpo{
-	position: relative;
-	overflow: hidden;
-}
-.Fotos{
-	float: left;
-}
-.Fotos, .Fotos:before{
-	width: 65%;
-	   
-}
-.Fotos:before{
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	background: #fff;
-	z-index: -1;
-    content:'';
-}
-.barra-lateral{
-	float: right;
-}
-.barra-lateral, .barra-lateral:before{
-	width: 30%;
+.container{
+    padding: 70px 0;
 
 }
-.barra-lateral:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	padding: 20px;
-	
+p,li{
+    color: #444;
+    font-size: 14px;
 }
+/* Barra de navegação*/
 
-.escapamento{
-	padding: 25px;
-	text-align:left;
+header, .navbar{
+    background-color: black
 }
-
-.Menu ul li a:hover{
-	text-decoration: underline;
-	color:  lightslategray;
-	transition-property: border-color;
-	transition: 1s;
-	background-color: lightcyan;
-	
-}
-.escapamento p{
-    text-align: justify;
-	line-height: 30px;
-	
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
 
 }
-.escapamento h1, .escapamento h2{
-	font-style: italic;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: black;
-
+#logo{
+    width: 270px;
 }
-.barra-lateral{
-	border: 2px solid #c3c3c3 ;
-	border-radius: 20px;
-	background-color: white;
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-	
-}
-h3{
-	text-align: center;
-	background-color: black;
-	border: 2px solid black;
-	border-radius: 20px;
-	padding-top: 3px;
-	color: lightslategray;	
-}
-.inframe-borda{
-	border: 2px solid grey;
-	border-radius: 20px;
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-	margin: 3px;
-	padding: 5px;	
-}
-table{
-	width: 580px;
-	height: 170px;
-}
-table, th, td{
-	border: 1px solid black;
-	border-collapse: collapse;	
-}
-caption{
-	font-weight: bolder;
-	background-color: rgb(236,236,236);
-}
-tbody > tr:nth-child(even){
-	background-color: #dddddd;
-}
-tbody > tr:nth-child(odd){
-	background-color: lightslategray;
-}
-
-
-
-
-.nav img{
-    width: 50px;
-    height: auto;
-}
-h1{
-    color: white;
-    text-align: right;
-}
-#menu-animado{
-    width: 35px;
-    height: 30px;
-    margin: 30px 0 20px 20px;
-    cursor: pointer;
-
-}
-.bar{
-    height: 5px;
-    width: 100%;
-    background-color: grey;
-    display: block;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-#bar1{
-    transform: translateY(-4px);
-}
-#bar3{
-    transform: translateY(4px);
-}
-.nav li a {
+.navbar-brand{
+    padding: 0;
     color: #fff;
-    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: #fff;
+
+}
+#navbar-links a{
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
 }
 
-.nav li a:hover{
+/* slider */
+
+.container-fluid{
+    padding: 0;
+}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 96vh;
+
+}
+#mainSlider{
+    margin-top: 80px;
+}
+.col-md-6 p{
+    text-align: justify;
+}
+/* Biografia da banda */
+#about-area{
+    background-color: white
+}
+.main-title{
+    color: #444;
+    margin: 0 0  65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.main-title::after{
+    content: "";  
+    border-top: 2px solid black;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+   
+}
+.about-title{
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
     font-weight: bold;
 }
-.nav li{
-    list-style: none;
-    padding: 16px 0;
-}
-.nav{
-    padding: 0;
-    margin: 0 20px;
-    transition: 0.3 ease;
-    display: none;
-}
 
-.menu-bg, #menu-bar{
-    top:0;
-    left: 0;
-    position: absolute ;
-}
-.menu-bg {
-    z-index: 1;
-    width: 0;
-    height:0 ;
-    margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #e94498, #b81568);
-    border-radius: 50%;
-    transition: 0.3s ease;
-}
+/* responsividade para tablet de tela 768px*/
+@media(max-width: 768px){
+    .container{
+        padding: 20px 0;
+    }
+    /* slider*/
 
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: auto;
+    }
+    .carousel-inner{
+        width: 870px;
+    }
 
+    /*about*/
+    #about-area img{ 
+        margin-top: 100px;
+        
+    }
 
-#menu-bar{
-    z-index: 2;
-}
-.change-bg{
-    width: 550px;
-    height: 540px;
-    transform: translate(-60%, -30%);
+    /* integrantes*/
+     .card-title{
+         font-size: 14px;
 
-}
-.change.bar{
-    background-color: white;
-}
-.change #bar1{
-    transform: translateY(4px) rotateZ(-45deg)
-}
-.change #bar3{
-    transform: translateY(-6px) rotate(45deg) ;
-}
-.change #bar2{
-    opacity:0 ;
-}
-.change{
-    display: block;
-}
-h1{
-	text-align: left;
+     }
+     .card-text{
+         font-size: 12px;
+     }
+    .card{
+        width: 400px;
+    }
+    .card-img-top{
+        width: 200px;
+        height: 300px;
+    }
 }
 
+/* reponsividade para tablet de 800px */
+@media(max-width: 800px){
+    .card{
+        width: 400px;
+    }
+    .card-img-top{
+        width: 200px;
+        height: 300px;
+    }
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: auto;
+    }
 
-@media screen and (min-width:360px) and (max-width:767px){
-	body{
-		background-color: white;
-	}
-	.barra-lateral{
-		display: none;
-	}
-	.Fotos, .Fotos:before{
-		width: 100%;
-	}
-	table{
-		width: 350px;
-		height: 100px;
-	}
-	.inframe-borda{
-		width: 350px;
-		height: 300px;
-		border-radius: none;
-	}
+    .carousel-inner{
+        width: 900px;
+    }
 
-	.Menu{
-		border-radius: 10px;
-		width: 100%;
-		height: 50px;
-	}
-	.Menu .estilo{
-		color: #444;
-	}
+    #about-area img{ 
+        margin-top: 150px;
+        
+    }
+    
 
 }
-/* celular*/
-@media screen and (min-width: 500px) and (max-width: 767px){
-	table{
-		width: 450px ;
-	}
-	.inframe-borda{
-		width: 450px;
-	}
+
+@media(max-width: 900px){
+    .card-title{
+        font-size: 14px;
+
+    }
+    .card-text{
+        font-size: 12px;
+    }
+   .card{
+       width: 400px;
+   }
+   .card-img-top{
+       width: 200px;
+       height: 300px;
+   }
 }
 
-
-
-@media screen and (min-width:768px) and (max-width:992px){
-	table{
-		width: 445px;
-	}
-	.inframe-borda{
-		width: 440px;
-	}	
-}
-
-
-@media screen and (min-width:992px) and (max-width: 1200px){
-	table{
-		width: 580px;
-	}
-
-	
-	.inframe-borda{
-		width: 570px;
-	}
-	
-
-
-}
 
 
 
