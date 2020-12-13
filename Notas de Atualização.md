@@ -10,3 +10,5 @@ Setima entrega
   paulo - > Correções na página "albuns" e no index, atualização das imagens em tamanhos maiores, atualizações no estilo dos articles e dos botões(class retorno) e atribuição  da seção "navegação" que permite navegar entre as páginas adjacentes.
 
 Jaqueline -  página (/files/jaqueline/republic.html) foi estilizada com o framework bootstrap;  Carousel, menu que se adéqua ao tamanho da janela da página e sistema Grid.
+ 
+Rute-> Atualização de tabelas arquivo projota.html(197 a 237) e arquivo legiao.html(199 a 235).
