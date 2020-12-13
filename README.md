@@ -5,3 +5,4 @@ Sétimo envio:
   
   paulo - > Correções na página "albuns" e no index, atualização das imagens em tamanhos maiores, atualizações no estilo dos articles e dos botões(class retorno) e atribuição  da seção "navegação" que permite navegar entre as páginas adjacentes.
 
+Rute-> Atualização de tabelas arquivo projota.html(197 a 237) e arquivo legiao.html(199 a 235).
