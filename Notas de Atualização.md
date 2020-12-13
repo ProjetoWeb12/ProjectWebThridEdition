@@ -8,3 +8,5 @@ Setima entrega
   douglas -> organização do about_us.html (/files/doug/about_us.html) com Bootstrap (uso de content, row e col), links do github e github pages substituidos por botões de classe btn 'btn-outline-dark' e 'btn btn-outline-primary', criação de um nav simples com a classe 'navbar' como atalho para a região de definição de cada membro.
   
   paulo - > Correções na página "albuns" e no index, atualização das imagens em tamanhos maiores, atualizações no estilo dos articles e dos botões(class retorno) e atribuição  da seção "navegação" que permite navegar entre as páginas adjacentes.
+  
+  Rute-> Atualização da tabela arquivo legiao.html(199 a 237) e arquivo projota.html(). 
